@@ -2,435 +2,384 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" readonly="true" id="c13c0c29-6cda-4bc6-ad00-26ff3161fbaf" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/.name" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/README" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/wellsfargo/adapters/DateTimeAdapter.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/wellsfargo/adapters/LocalDateAdapter.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/wellsfargo/adapters/LocalTimeAdapter.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/wellsfargo/service/base/_2003/BalanceType.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/wellsfargo/service/base/_2003/BusinessDateCodeEnum.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/wellsfargo/service/base/_2003/BusinessNameType.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/wellsfargo/service/base/_2003/BusinessNameUsageCodeEnum.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/wellsfargo/service/base/_2003/CodeDetailType.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/wellsfargo/service/base/_2003/CountryCodeListType.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/wellsfargo/service/base/_2003/CurrencyAmountRangeType.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/wellsfargo/service/base/_2003/CurrencyAmtType.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/wellsfargo/service/base/_2003/CursorInType.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/wellsfargo/service/base/_2003/CursorKeyType.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/wellsfargo/service/base/_2003/CursorOutType.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/wellsfargo/service/base/_2003/DataActionCodeEnum.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/wellsfargo/service/base/_2003/DateRangeType.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/wellsfargo/service/base/_2003/DateTimeRangeType.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/wellsfargo/service/base/_2003/DayOfTheWeekCodeEnum.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/wellsfargo/service/base/_2003/DayOfTheWeekCodeListType.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/wellsfargo/service/base/_2003/DebitCreditIndicatorEnum.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/wellsfargo/service/base/_2003/DeliveryChannelCodeEnum.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/wellsfargo/service/base/_2003/DistanceType.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/wellsfargo/service/base/_2003/EntityNameType.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/wellsfargo/service/base/_2003/ExtendedCursorInType.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/wellsfargo/service/base/_2003/ExtendedCursorOutType.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/wellsfargo/service/base/_2003/GeographicPointListType.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/wellsfargo/service/base/_2003/GeographicPointType.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/wellsfargo/service/base/_2003/IndividualNameType.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/wellsfargo/service/base/_2003/IndividualNameUsageCodeEnum.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/wellsfargo/service/base/_2003/IntegerRangeType.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/wellsfargo/service/base/_2003/InterestRateRangeType.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/wellsfargo/service/base/_2003/InterestRateType.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/wellsfargo/service/base/_2003/InternationalNameType.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/wellsfargo/service/base/_2003/IntervalCompleteConstraintEnum.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/wellsfargo/service/base/_2003/LanguageCodeListType.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/wellsfargo/service/base/_2003/LengthType.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/wellsfargo/service/base/_2003/LineListType.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/wellsfargo/service/base/_2003/LocalTimeType.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/wellsfargo/service/base/_2003/NameComponentsType.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/wellsfargo/service/base/_2003/NameFormatEnum.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/wellsfargo/service/base/_2003/NameLineListType.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/wellsfargo/service/base/_2003/NextKeyChoice.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/wellsfargo/service/base/_2003/ObjectFactory.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/wellsfargo/service/base/_2003/PeriodicAmtType.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/wellsfargo/service/base/_2003/RatioType.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/wellsfargo/service/base/_2003/RecurrenceEnum.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/wellsfargo/service/base/_2003/RelaxedTaxIdInfoType.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/wellsfargo/service/base/_2003/RelaxedTaxIdType.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/wellsfargo/service/base/_2003/StringRangeType.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/wellsfargo/service/base/_2003/TINStatusCodeEnum.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/wellsfargo/service/base/_2003/TINTypeEnum.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/wellsfargo/service/base/_2003/TaxIdInfoType.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/wellsfargo/service/base/_2003/TaxIdType.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/wellsfargo/service/base/_2003/TimePeriodType.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/wellsfargo/service/base/_2003/TimeRangeType.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/wellsfargo/service/base/_2003/TimeZoneType.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/wellsfargo/service/base/_2003/TriggersType.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/wellsfargo/service/base/_2003/VariableInterestRateTypeEnum.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/wellsfargo/service/base/_2003/WeightType.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/wellsfargo/service/base/_2003/package-info.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/wellsfargo/service/entity/message/_2007/DataReferenceType.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/wellsfargo/service/entity/message/_2007/FaultSeverityEnum.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/wellsfargo/service/entity/message/_2007/FaultTypeEnum.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/wellsfargo/service/entity/message/_2007/InitiatorType.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/wellsfargo/service/entity/message/_2007/ObjectFactory.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/wellsfargo/service/entity/message/_2007/OriginatorType.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/wellsfargo/service/entity/message/_2007/ProcessingModeEnum.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/wellsfargo/service/entity/message/_2007/SessionType.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/wellsfargo/service/entity/message/_2007/WFContextType.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/wellsfargo/service/entity/message/_2007/WFFaultListType.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/wellsfargo/service/entity/message/_2007/WFFaultType.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/wellsfargo/service/entity/message/_2007/package-info.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/wellsfargo/service/provider/fxaip/base/_2013/BuySellIndicatorEnum.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/wellsfargo/service/provider/fxaip/base/_2013/CurrencyPairType.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/wellsfargo/service/provider/fxaip/base/_2013/CurrencyTermEnum.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/wellsfargo/service/provider/fxaip/base/_2013/EntityType.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/wellsfargo/service/provider/fxaip/base/_2013/EntityTypeEnum.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/wellsfargo/service/provider/fxaip/base/_2013/ObjectFactory.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/wellsfargo/service/provider/fxaip/base/_2013/PriceDimensionEnum.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/wellsfargo/service/provider/fxaip/base/_2013/PricingTypeEnum.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/wellsfargo/service/provider/fxaip/base/_2013/ProductEnum.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/wellsfargo/service/provider/fxaip/base/_2013/RateTypeEnum.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/wellsfargo/service/provider/fxaip/base/_2013/SourceSystemType.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/wellsfargo/service/provider/fxaip/base/_2013/TenorDateType.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/wellsfargo/service/provider/fxaip/base/_2013/TradeContractIdListType.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/wellsfargo/service/provider/fxaip/base/_2013/TradeContractIdType.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/wellsfargo/service/provider/fxaip/base/_2013/TransactionLimitTypeEnum.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/wellsfargo/service/provider/fxaip/base/_2013/package-info.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/wellsfargo/service/provider/fxaip/gfx/service/_2013/CoreFX2013.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/wellsfargo/service/provider/fxaip/gfx/service/_2013/CoreFX2013_CoreFX2013Port_Client.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/wellsfargo/service/provider/fxaip/gfx/service/_2013/CoreFX2013_Service.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/wellsfargo/service/provider/fxaip/gfx/service/core/_2013/ObjectFactory.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/wellsfargo/service/provider/fxaip/gfx/service/core/_2013/RequestDealAndSettlementResponseType.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/wellsfargo/service/provider/fxaip/gfx/service/core/_2013/RequestDealAndSettlementType.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/wellsfargo/service/provider/fxaip/gfx/service/core/_2013/package-info.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/wellsfargo/service/provider/fxaip/gfx/service/settlement/_2013/ApproveSettlementResponseType.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/wellsfargo/service/provider/fxaip/gfx/service/settlement/_2013/ApproveSettlementType.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/wellsfargo/service/provider/fxaip/gfx/service/settlement/_2013/CancelSettlementResponseType.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/wellsfargo/service/provider/fxaip/gfx/service/settlement/_2013/CancelSettlementType.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/wellsfargo/service/provider/fxaip/gfx/service/settlement/_2013/GetSettlementResponseType.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/wellsfargo/service/provider/fxaip/gfx/service/settlement/_2013/GetSettlementType.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/wellsfargo/service/provider/fxaip/gfx/service/settlement/_2013/ObjectFactory.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/wellsfargo/service/provider/fxaip/gfx/service/settlement/_2013/RejectSettlementResponseType.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/wellsfargo/service/provider/fxaip/gfx/service/settlement/_2013/RejectSettlementType.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/wellsfargo/service/provider/fxaip/gfx/service/settlement/_2013/RemoveSettlementResponseType.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/wellsfargo/service/provider/fxaip/gfx/service/settlement/_2013/RemoveSettlementType.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/wellsfargo/service/provider/fxaip/gfx/service/settlement/_2013/SaveSettlementResponseType.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/wellsfargo/service/provider/fxaip/gfx/service/settlement/_2013/SaveSettlementType.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/wellsfargo/service/provider/fxaip/gfx/service/settlement/_2013/SubmitSettlementResponseType.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/wellsfargo/service/provider/fxaip/gfx/service/settlement/_2013/SubmitSettlementType.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/wellsfargo/service/provider/fxaip/gfx/service/settlement/_2013/package-info.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/wellsfargo/service/provider/fxaip/gfx/service/trading/_2013/ObjectFactory.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/wellsfargo/service/provider/fxaip/gfx/service/trading/_2013/RequestDealResponseType.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/wellsfargo/service/provider/fxaip/gfx/service/trading/_2013/RequestDealType.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/wellsfargo/service/provider/fxaip/gfx/service/trading/_2013/package-info.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/wellsfargo/service/provider/fxaip/gfx/settlement/_2013/BasicSettlementDataType.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/wellsfargo/service/provider/fxaip/gfx/settlement/_2013/DetailOfChargesEnum.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/wellsfargo/service/provider/fxaip/gfx/settlement/_2013/MCAAccountTypeEnum.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/wellsfargo/service/provider/fxaip/gfx/settlement/_2013/ObjectFactory.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/wellsfargo/service/provider/fxaip/gfx/settlement/_2013/SettlementDACHType.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/wellsfargo/service/provider/fxaip/gfx/settlement/_2013/SettlementDDAType.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/wellsfargo/service/provider/fxaip/gfx/settlement/_2013/SettlementDataType.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/wellsfargo/service/provider/fxaip/gfx/settlement/_2013/SettlementDetailsType.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/wellsfargo/service/provider/fxaip/gfx/settlement/_2013/SettlementGLType.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/wellsfargo/service/provider/fxaip/gfx/settlement/_2013/SettlementHeaderType.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/wellsfargo/service/provider/fxaip/gfx/settlement/_2013/SettlementIISType.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/wellsfargo/service/provider/fxaip/gfx/settlement/_2013/SettlementInfoType.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/wellsfargo/service/provider/fxaip/gfx/settlement/_2013/SettlementInstructionDetailType.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/wellsfargo/service/provider/fxaip/gfx/settlement/_2013/SettlementInstructionType.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/wellsfargo/service/provider/fxaip/gfx/settlement/_2013/SettlementMCAType.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/wellsfargo/service/provider/fxaip/gfx/settlement/_2013/SettlementStatusListType.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/wellsfargo/service/provider/fxaip/gfx/settlement/_2013/SettlementWireType.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/wellsfargo/service/provider/fxaip/gfx/settlement/_2013/SingleSettlementDataType.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/wellsfargo/service/provider/fxaip/gfx/settlement/_2013/SwapSettlementDataType.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/wellsfargo/service/provider/fxaip/gfx/settlement/_2013/WireTypeEnum.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/wellsfargo/service/provider/fxaip/gfx/settlement/_2013/package-info.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/wellsfargo/service/provider/fxaip/gfx/trading/_2013/AdditionalInfoType.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/wellsfargo/service/provider/fxaip/gfx/trading/_2013/ContractType.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/wellsfargo/service/provider/fxaip/gfx/trading/_2013/FXDrawDownTradeRequestType.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/wellsfargo/service/provider/fxaip/gfx/trading/_2013/FXNDFTradeRequestType.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/wellsfargo/service/provider/fxaip/gfx/trading/_2013/FXSpotFwdTradeRequestType.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/wellsfargo/service/provider/fxaip/gfx/trading/_2013/FXSwapTradeRequestType.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/wellsfargo/service/provider/fxaip/gfx/trading/_2013/FXWindowFwdTradeRequestType.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/wellsfargo/service/provider/fxaip/gfx/trading/_2013/MCATradeRequestType.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/wellsfargo/service/provider/fxaip/gfx/trading/_2013/Map.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/wellsfargo/service/provider/fxaip/gfx/trading/_2013/MapEntryType.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/wellsfargo/service/provider/fxaip/gfx/trading/_2013/MapType.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/wellsfargo/service/provider/fxaip/gfx/trading/_2013/McaTypeEnum.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/wellsfargo/service/provider/fxaip/gfx/trading/_2013/ObjectFactory.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/wellsfargo/service/provider/fxaip/gfx/trading/_2013/OffsetDataType.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/wellsfargo/service/provider/fxaip/gfx/trading/_2013/PortfoliosType.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/wellsfargo/service/provider/fxaip/gfx/trading/_2013/RolloverDataType.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/wellsfargo/service/provider/fxaip/gfx/trading/_2013/SpotFwdAllInRateType.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/wellsfargo/service/provider/fxaip/gfx/trading/_2013/SpotFwdContractType.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/wellsfargo/service/provider/fxaip/gfx/trading/_2013/SpotFwdLegType.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/wellsfargo/service/provider/fxaip/gfx/trading/_2013/SpreadDataType.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/wellsfargo/service/provider/fxaip/gfx/trading/_2013/SwapContractType.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/wellsfargo/service/provider/fxaip/gfx/trading/_2013/TradeBackOfficeInterfaceFieldsType.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/wellsfargo/service/provider/fxaip/gfx/trading/_2013/TradeDepositRequestType.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/wellsfargo/service/provider/fxaip/gfx/trading/_2013/TradeDetailListType.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/wellsfargo/service/provider/fxaip/gfx/trading/_2013/TradeDetailType.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/wellsfargo/service/provider/fxaip/gfx/trading/_2013/TradeNotesType.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/wellsfargo/service/provider/fxaip/gfx/trading/_2013/TradeRequestType.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/wellsfargo/service/provider/fxaip/gfx/trading/_2013/TraderBooksAndPortfoliosType.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/wellsfargo/service/provider/fxaip/gfx/trading/_2013/TraderBooksType.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/wellsfargo/service/provider/fxaip/gfx/trading/_2013/WindowFwdContractType.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/wellsfargo/service/provider/fxaip/gfx/trading/_2013/package-info.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/cxf-codegen-plugin-markers/..._schemas_com_wellsfargo_service_provider_fxaip_gfx_gfx2013.wsdl.java.DONE" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/test-classes/com/wellsfargo/aspects/CoherencePortableObjectAspect.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/test-classes/com/wellsfargo/aspects/SerializationAspect.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/test-classes/com/wellsfargo/aspects/XmlRootElementAspect.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/test-classes/com/wellsfargo/domain/BogusMCATradeRequestType.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/test-classes/com/wellsfargo/domain/Person.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/test-classes/com/wellsfargo/domain/PersonNoAnnotations.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/test-classes/com/wellsfargo/marshalling/MarshallTest.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/test-classes/com/wellsfargo/pof/POFReader.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/test-classes/com/wellsfargo/pof/POFTest.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/test-classes/com/wellsfargo/pof/POFWriter.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/test-classes/com/wellsfargo/pof/serializer/AutomaticPofAnnotationSerializer.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.classpath" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/ant.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/copyright/profiles_settings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/encodings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_guava_guava_13_0_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_oracle_coherence_coherence_3_7_1_6.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_wf_fx_fxaip_egi_serde_1_0_5.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_lang_commons_lang_2_4.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_logging_commons_logging_1_1_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__joda_time_joda_time_2_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__junit_junit_4_11.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_aopalliance_com_springsource_org_aopalliance_1_0_0.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_aspectj_aspectjrt_1_7_2.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_all_1_3.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_3.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jvnet_annox_annox_0_5_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jvnet_jaxb2_commons_jaxb2_basics_runtime_0_6_2.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_org_springframework_aop_3_1_0_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_org_springframework_asm_3_1_0_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_org_springframework_beans_3_1_0_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_org_springframework_context_3_1_0_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_org_springframework_core_3_1_0_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_org_springframework_expression_3_1_0_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_org_springframework_oxm_3_1_0_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_org_springframework_test_3_1_0_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/scopes/scope_settings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.project" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.settings/org.eclipse.core.resources.prefs" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.settings/org.eclipse.jdt.core.prefs" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.settings/org.eclipse.m2e.core.prefs" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gfx-egi-pof.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pom.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/java/com/redsparksystems/aspects/CoherencePortableObjectAspect.aj" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/java/com/redsparksystems/aspects/SerializationAspect.aj" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/java/com/redsparksystems/aspects/XmlRootElementAspect.aj" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/java/com/redsparksystems/domain/BogusMCATradeRequestType.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/java/com/redsparksystems/domain/Person.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/java/com/redsparksystems/domain/PersonNoAnnotations.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/java/com/redsparksystems/marshalling/MarshallTest.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/java/com/redsparksystems/pof/POFReader.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/java/com/redsparksystems/pof/POFTest.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/java/com/redsparksystems/pof/POFWriter.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/java/com/redsparksystems/pof/serializer/AutomaticPofAnnotationSerializer.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/resources/com/redsparksystems/marshalling/MarshallTest-context.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/resources/com/redsparksystems/pof/pof-config.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/META-INF/MANIFEST.MF" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/META-INF/maven/com.wellsfargo.service.provider.fxaip/gfx-egi-pof/pom.properties" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/META-INF/maven/com.wellsfargo.service.provider.fxaip/gfx-egi-pof/pom.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/META-INF/sun-jaxb.episode" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/bindings/AdditionalInfo-binding.xjb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/bindings/FXDrawDownTradeRequest-binding.xjb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/bindings/FXNDFTradeRequest-binding.xjb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/bindings/FXSpotFwdTradeRequest-binding.xjb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/bindings/FXSwapTradeRequest-binding.xjb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/bindings/FXTraderBooks-binding.xjb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/bindings/FXWindowFwdTradeRequest-binding.xjb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/bindings/SpotFwdAllInRate-binding.xjb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/bindings/SpotFwdLeg-binding.xjb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/bindings/TradeRequest-binding.xjb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/bindings/TraderBook-binding.xjb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/bindings/base-money-binding.xjb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/bindings/fxaip-base2013-binding.xjb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/bindings/fxaip-trading-common-binding.xjb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/bindings/jodaDate-binding.xjb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/wellsfargo/service/base/base2003-annot.xsd" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/wellsfargo/service/base/base2003-geometry.xsd" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/wellsfargo/service/base/base2003-lang.xsd" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/wellsfargo/service/base/base2003-money.xsd" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/wellsfargo/service/base/base2003-time.xsd" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/wellsfargo/service/base/base2003-wftype.xsd" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/wellsfargo/service/base/base2003.xsd" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/wellsfargo/service/entity/message/message2007.xsd" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/wellsfargo/service/provider/fxaip/base/fxaip-base2013.xsd" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/wellsfargo/service/provider/fxaip/gfx/event/event2013.xsd" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/wellsfargo/service/provider/fxaip/gfx/gfx2013.wsdl" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/wellsfargo/service/provider/fxaip/gfx/gfxService2013.xsd" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/wellsfargo/service/provider/fxaip/gfx/settlementService2013.xsd" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/wellsfargo/service/provider/fxaip/gfx/settlement/settlement2013.xsd" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/wellsfargo/service/provider/fxaip/gfx/tradingService2013.xsd" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/wellsfargo/service/provider/fxaip/gfx/trading/trading2013.xsd" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/episodes/com/wellsfargo/service/provider/fxaip/gfx/base/base.episode" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/episodes/com/wellsfargo/service/provider/fxaip/gfx/event/event.episode" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/episodes/com/wellsfargo/service/provider/fxaip/gfx/settlement/settlement.episode" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/episodes/com/wellsfargo/service/provider/fxaip/gfx/trading/trading.episode" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/gfx-pof-config.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/serde-base-pof-config.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/generated-sources/META-INF/sun-jaxb.episode" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/generated-sources/com/redsparksystems/service/base/_2003/BalanceType.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/generated-sources/com/redsparksystems/service/base/_2003/BusinessDateCodeEnum.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/generated-sources/com/redsparksystems/service/base/_2003/BusinessNameType.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/generated-sources/com/redsparksystems/service/base/_2003/BusinessNameUsageCodeEnum.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/generated-sources/com/redsparksystems/service/base/_2003/CodeDetailType.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/generated-sources/com/redsparksystems/service/base/_2003/CountryCodeListType.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/generated-sources/com/redsparksystems/service/base/_2003/CurrencyAmountRangeType.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/generated-sources/com/redsparksystems/service/base/_2003/CurrencyAmtType.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/generated-sources/com/redsparksystems/service/base/_2003/CursorInType.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/generated-sources/com/redsparksystems/service/base/_2003/CursorKeyType.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/generated-sources/com/redsparksystems/service/base/_2003/CursorOutType.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/generated-sources/com/redsparksystems/service/base/_2003/DataActionCodeEnum.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/generated-sources/com/redsparksystems/service/base/_2003/DateRangeType.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/generated-sources/com/redsparksystems/service/base/_2003/DateTimeRangeType.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/generated-sources/com/redsparksystems/service/base/_2003/DayOfTheWeekCodeEnum.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/generated-sources/com/redsparksystems/service/base/_2003/DayOfTheWeekCodeListType.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/generated-sources/com/redsparksystems/service/base/_2003/DebitCreditIndicatorEnum.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/generated-sources/com/redsparksystems/service/base/_2003/DeliveryChannelCodeEnum.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/generated-sources/com/redsparksystems/service/base/_2003/DistanceType.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/generated-sources/com/redsparksystems/service/base/_2003/EntityNameType.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/generated-sources/com/redsparksystems/service/base/_2003/ExtendedCursorInType.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/generated-sources/com/redsparksystems/service/base/_2003/ExtendedCursorOutType.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/generated-sources/com/redsparksystems/service/base/_2003/GeographicPointListType.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/generated-sources/com/redsparksystems/service/base/_2003/GeographicPointType.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/generated-sources/com/redsparksystems/service/base/_2003/IndividualNameType.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/generated-sources/com/redsparksystems/service/base/_2003/IndividualNameUsageCodeEnum.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/generated-sources/com/redsparksystems/service/base/_2003/IntegerRangeType.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/generated-sources/com/redsparksystems/service/base/_2003/InterestRateRangeType.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/generated-sources/com/redsparksystems/service/base/_2003/InterestRateType.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/generated-sources/com/redsparksystems/service/base/_2003/InternationalNameType.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/generated-sources/com/redsparksystems/service/base/_2003/IntervalCompleteConstraintEnum.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/generated-sources/com/redsparksystems/service/base/_2003/LanguageCodeListType.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/generated-sources/com/redsparksystems/service/base/_2003/LengthType.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/generated-sources/com/redsparksystems/service/base/_2003/LineListType.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/generated-sources/com/redsparksystems/service/base/_2003/LocalTimeType.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/generated-sources/com/redsparksystems/service/base/_2003/NameComponentsType.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/generated-sources/com/redsparksystems/service/base/_2003/NameFormatEnum.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/generated-sources/com/redsparksystems/service/base/_2003/NameLineListType.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/generated-sources/com/redsparksystems/service/base/_2003/NextKeyChoice.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/generated-sources/com/redsparksystems/service/base/_2003/ObjectFactory.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/generated-sources/com/redsparksystems/service/base/_2003/PeriodicAmtType.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/generated-sources/com/redsparksystems/service/base/_2003/RatioType.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/generated-sources/com/redsparksystems/service/base/_2003/RecurrenceEnum.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/generated-sources/com/redsparksystems/service/base/_2003/RelaxedTaxIdInfoType.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/generated-sources/com/redsparksystems/service/base/_2003/RelaxedTaxIdType.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/generated-sources/com/redsparksystems/service/base/_2003/StringRangeType.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/generated-sources/com/redsparksystems/service/base/_2003/TINStatusCodeEnum.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/generated-sources/com/redsparksystems/service/base/_2003/TINTypeEnum.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/generated-sources/com/redsparksystems/service/base/_2003/TaxIdInfoType.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/generated-sources/com/redsparksystems/service/base/_2003/TaxIdType.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/generated-sources/com/redsparksystems/service/base/_2003/TimePeriodType.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/generated-sources/com/redsparksystems/service/base/_2003/TimeRangeType.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/generated-sources/com/redsparksystems/service/base/_2003/TimeZoneType.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/generated-sources/com/redsparksystems/service/base/_2003/TriggersType.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/generated-sources/com/redsparksystems/service/base/_2003/VariableInterestRateTypeEnum.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/generated-sources/com/redsparksystems/service/base/_2003/WeightType.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/generated-sources/com/redsparksystems/service/entity/message/_2007/DataReferenceType.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/generated-sources/com/redsparksystems/service/entity/message/_2007/FaultSeverityEnum.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/generated-sources/com/redsparksystems/service/entity/message/_2007/FaultTypeEnum.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/generated-sources/com/redsparksystems/service/entity/message/_2007/InitiatorType.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/generated-sources/com/redsparksystems/service/entity/message/_2007/ObjectFactory.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/generated-sources/com/redsparksystems/service/entity/message/_2007/OriginatorType.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/generated-sources/com/redsparksystems/service/entity/message/_2007/ProcessingModeEnum.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/generated-sources/com/redsparksystems/service/entity/message/_2007/SessionType.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/generated-sources/com/redsparksystems/service/entity/message/_2007/WFContext.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/generated-sources/com/redsparksystems/service/entity/message/_2007/WFFault.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/generated-sources/com/redsparksystems/service/entity/message/_2007/WFFaultList.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/generated-sources/com/redsparksystems/service/provider/fxaip/base/_2013/BuySellIndicatorEnum.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/generated-sources/com/redsparksystems/service/provider/fxaip/base/_2013/CurrencyPairType.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/generated-sources/com/redsparksystems/service/provider/fxaip/base/_2013/CurrencyTermEnum.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/generated-sources/com/redsparksystems/service/provider/fxaip/base/_2013/EntityType.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/generated-sources/com/redsparksystems/service/provider/fxaip/base/_2013/EntityTypeEnum.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/generated-sources/com/redsparksystems/service/provider/fxaip/base/_2013/ObjectFactory.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/generated-sources/com/redsparksystems/service/provider/fxaip/base/_2013/PriceDimensionEnum.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/generated-sources/com/redsparksystems/service/provider/fxaip/base/_2013/PricingTypeEnum.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/generated-sources/com/redsparksystems/service/provider/fxaip/base/_2013/ProductEnum.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/generated-sources/com/redsparksystems/service/provider/fxaip/base/_2013/RateTypeEnum.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/generated-sources/com/redsparksystems/service/provider/fxaip/base/_2013/SourceSystemType.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/generated-sources/com/redsparksystems/service/provider/fxaip/base/_2013/TenorDateType.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/generated-sources/com/redsparksystems/service/provider/fxaip/base/_2013/TradeContractIdListType.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/generated-sources/com/redsparksystems/service/provider/fxaip/base/_2013/TradeIdentifier.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/generated-sources/com/redsparksystems/service/provider/fxaip/base/_2013/TransactionLimitTypeEnum.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/generated-sources/com/redsparksystems/service/provider/fxaip/gfx/service/core/_2013/ObjectFactory.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/generated-sources/com/redsparksystems/service/provider/fxaip/gfx/service/core/_2013/RequestDealAndSettlement.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/generated-sources/com/redsparksystems/service/provider/fxaip/gfx/service/core/_2013/RequestDealAndSettlementResponse.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/generated-sources/com/redsparksystems/service/provider/fxaip/gfx/service/settlement/_2013/ApproveSettlementResponseType.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/generated-sources/com/redsparksystems/service/provider/fxaip/gfx/service/settlement/_2013/ApproveSettlementType.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/generated-sources/com/redsparksystems/service/provider/fxaip/gfx/service/settlement/_2013/CancelSettlementResponseType.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/generated-sources/com/redsparksystems/service/provider/fxaip/gfx/service/settlement/_2013/CancelSettlementType.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/generated-sources/com/redsparksystems/service/provider/fxaip/gfx/service/settlement/_2013/GetSettlementResponseType.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/generated-sources/com/redsparksystems/service/provider/fxaip/gfx/service/settlement/_2013/GetSettlementType.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/generated-sources/com/redsparksystems/service/provider/fxaip/gfx/service/settlement/_2013/ObjectFactory.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/generated-sources/com/redsparksystems/service/provider/fxaip/gfx/service/settlement/_2013/RejectSettlementResponseType.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/generated-sources/com/redsparksystems/service/provider/fxaip/gfx/service/settlement/_2013/RejectSettlementType.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/generated-sources/com/redsparksystems/service/provider/fxaip/gfx/service/settlement/_2013/RemoveSettlementResponseType.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/generated-sources/com/redsparksystems/service/provider/fxaip/gfx/service/settlement/_2013/RemoveSettlementType.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/generated-sources/com/redsparksystems/service/provider/fxaip/gfx/service/settlement/_2013/SaveSettlementResponseType.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/generated-sources/com/redsparksystems/service/provider/fxaip/gfx/service/settlement/_2013/SaveSettlementType.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/generated-sources/com/redsparksystems/service/provider/fxaip/gfx/service/settlement/_2013/SubmitSettlement.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/generated-sources/com/redsparksystems/service/provider/fxaip/gfx/service/settlement/_2013/SubmitSettlementResponse.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/generated-sources/com/redsparksystems/service/provider/fxaip/gfx/service/trading/_2013/ObjectFactory.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/generated-sources/com/redsparksystems/service/provider/fxaip/gfx/service/trading/_2013/RequestDeal.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/generated-sources/com/redsparksystems/service/provider/fxaip/gfx/service/trading/_2013/RequestDealResponse.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/generated-sources/com/redsparksystems/service/provider/fxaip/gfx/settlement/_2013/BasicSettlementDataType.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/generated-sources/com/redsparksystems/service/provider/fxaip/gfx/settlement/_2013/DetailOfChargesEnum.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/generated-sources/com/redsparksystems/service/provider/fxaip/gfx/settlement/_2013/MCAAccountTypeEnum.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/generated-sources/com/redsparksystems/service/provider/fxaip/gfx/settlement/_2013/ObjectFactory.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/generated-sources/com/redsparksystems/service/provider/fxaip/gfx/settlement/_2013/SettlementDACHType.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/generated-sources/com/redsparksystems/service/provider/fxaip/gfx/settlement/_2013/SettlementDDAType.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/generated-sources/com/redsparksystems/service/provider/fxaip/gfx/settlement/_2013/SettlementDataType.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/generated-sources/com/redsparksystems/service/provider/fxaip/gfx/settlement/_2013/SettlementDetailsType.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/generated-sources/com/redsparksystems/service/provider/fxaip/gfx/settlement/_2013/SettlementGLType.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/generated-sources/com/redsparksystems/service/provider/fxaip/gfx/settlement/_2013/SettlementHeaderType.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/generated-sources/com/redsparksystems/service/provider/fxaip/gfx/settlement/_2013/SettlementIISType.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/generated-sources/com/redsparksystems/service/provider/fxaip/gfx/settlement/_2013/SettlementInfoType.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/generated-sources/com/redsparksystems/service/provider/fxaip/gfx/settlement/_2013/SettlementInstructionDetailType.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/generated-sources/com/redsparksystems/service/provider/fxaip/gfx/settlement/_2013/SettlementInstructionType.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/generated-sources/com/redsparksystems/service/provider/fxaip/gfx/settlement/_2013/SettlementMCAType.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/generated-sources/com/redsparksystems/service/provider/fxaip/gfx/settlement/_2013/SettlementStatusListType.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/generated-sources/com/redsparksystems/service/provider/fxaip/gfx/settlement/_2013/SettlementWireType.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/generated-sources/com/redsparksystems/service/provider/fxaip/gfx/settlement/_2013/SingleSettlementDataType.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/generated-sources/com/redsparksystems/service/provider/fxaip/gfx/settlement/_2013/SwapSettlementDataType.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/generated-sources/com/redsparksystems/service/provider/fxaip/gfx/settlement/_2013/WireTypeEnum.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/generated-sources/com/redsparksystems/service/provider/fxaip/gfx/trading/_2013/AdditionalInfoType.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/generated-sources/com/redsparksystems/service/provider/fxaip/gfx/trading/_2013/ContractType.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/generated-sources/com/redsparksystems/service/provider/fxaip/gfx/trading/_2013/FXDrawDownTradeRequestType.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/generated-sources/com/redsparksystems/service/provider/fxaip/gfx/trading/_2013/FXNDFTradeRequestType.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/generated-sources/com/redsparksystems/service/provider/fxaip/gfx/trading/_2013/FXSpotFwdTradeRequestType.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/generated-sources/com/redsparksystems/service/provider/fxaip/gfx/trading/_2013/FXSwapTradeRequestType.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/generated-sources/com/redsparksystems/service/provider/fxaip/gfx/trading/_2013/FXWindowFwdTradeRequestType.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/generated-sources/com/redsparksystems/service/provider/fxaip/gfx/trading/_2013/MCATradeRequestType.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/generated-sources/com/redsparksystems/service/provider/fxaip/gfx/trading/_2013/Map.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/generated-sources/com/redsparksystems/service/provider/fxaip/gfx/trading/_2013/MapEntryType.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/generated-sources/com/redsparksystems/service/provider/fxaip/gfx/trading/_2013/MapType.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/generated-sources/com/redsparksystems/service/provider/fxaip/gfx/trading/_2013/McaTypeEnum.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/generated-sources/com/redsparksystems/service/provider/fxaip/gfx/trading/_2013/ObjectFactory.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/generated-sources/com/redsparksystems/service/provider/fxaip/gfx/trading/_2013/OffsetDataType.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/generated-sources/com/redsparksystems/service/provider/fxaip/gfx/trading/_2013/PortfoliosType.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/generated-sources/com/redsparksystems/service/provider/fxaip/gfx/trading/_2013/RolloverDataType.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/generated-sources/com/redsparksystems/service/provider/fxaip/gfx/trading/_2013/SpotFwdAllInRateType.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/generated-sources/com/redsparksystems/service/provider/fxaip/gfx/trading/_2013/SpotFwdContractType.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/generated-sources/com/redsparksystems/service/provider/fxaip/gfx/trading/_2013/SpotFwdLegType.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/generated-sources/com/redsparksystems/service/provider/fxaip/gfx/trading/_2013/SpreadDataType.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/generated-sources/com/redsparksystems/service/provider/fxaip/gfx/trading/_2013/SwapContractType.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/generated-sources/com/redsparksystems/service/provider/fxaip/gfx/trading/_2013/TradeBackOfficeInterfaceFieldsType.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/generated-sources/com/redsparksystems/service/provider/fxaip/gfx/trading/_2013/TradeDepositRequestType.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/generated-sources/com/redsparksystems/service/provider/fxaip/gfx/trading/_2013/TradeDetail.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/generated-sources/com/redsparksystems/service/provider/fxaip/gfx/trading/_2013/TradeDetailList.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/generated-sources/com/redsparksystems/service/provider/fxaip/gfx/trading/_2013/TradeNotesType.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/generated-sources/com/redsparksystems/service/provider/fxaip/gfx/trading/_2013/TradeRequestType.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/generated-sources/com/redsparksystems/service/provider/fxaip/gfx/trading/_2013/TraderBooksAndPortfoliosType.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/generated-sources/com/redsparksystems/service/provider/fxaip/gfx/trading/_2013/TraderBooksType.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/generated-sources/com/redsparksystems/service/provider/fxaip/gfx/trading/_2013/WindowFwdContractType.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/test-classes/com/wellsfargo/marshalling/MarshallTest-context.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/test-classes/com/wellsfargo/pof/pof-config.xml" />
+      <change type="DELETED" beforePath="C:\fxaip-egi\auto-pof\target\classes\META-INF\MANIFEST.MF" afterPath="" />
+      <change type="DELETED" beforePath="C:\fxaip-egi\auto-pof\target\classes\META-INF\maven\com.wellsfargo.service.provider.fxaip\gfx-egi-pof\pom.properties" afterPath="" />
+      <change type="DELETED" beforePath="C:\fxaip-egi\auto-pof\target\classes\META-INF\maven\com.wellsfargo.service.provider.fxaip\gfx-egi-pof\pom.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\fxaip-egi\auto-pof\target\classes\META-INF\sun-jaxb.episode" afterPath="" />
+      <change type="DELETED" beforePath="C:\fxaip-egi\auto-pof\target\classes\bindings\AdditionalInfo-binding.xjb" afterPath="" />
+      <change type="DELETED" beforePath="C:\fxaip-egi\auto-pof\target\classes\bindings\FXDrawDownTradeRequest-binding.xjb" afterPath="" />
+      <change type="DELETED" beforePath="C:\fxaip-egi\auto-pof\target\classes\bindings\FXNDFTradeRequest-binding.xjb" afterPath="" />
+      <change type="DELETED" beforePath="C:\fxaip-egi\auto-pof\target\classes\bindings\FXSpotFwdTradeRequest-binding.xjb" afterPath="" />
+      <change type="DELETED" beforePath="C:\fxaip-egi\auto-pof\target\classes\bindings\FXSwapTradeRequest-binding.xjb" afterPath="" />
+      <change type="DELETED" beforePath="C:\fxaip-egi\auto-pof\target\classes\bindings\FXTraderBooks-binding.xjb" afterPath="" />
+      <change type="DELETED" beforePath="C:\fxaip-egi\auto-pof\target\classes\bindings\FXWindowFwdTradeRequest-binding.xjb" afterPath="" />
+      <change type="DELETED" beforePath="C:\fxaip-egi\auto-pof\target\classes\bindings\SpotFwdAllInRate-binding.xjb" afterPath="" />
+      <change type="DELETED" beforePath="C:\fxaip-egi\auto-pof\target\classes\bindings\SpotFwdLeg-binding.xjb" afterPath="" />
+      <change type="DELETED" beforePath="C:\fxaip-egi\auto-pof\target\classes\bindings\TradeRequest-binding.xjb" afterPath="" />
+      <change type="DELETED" beforePath="C:\fxaip-egi\auto-pof\target\classes\bindings\TraderBook-binding.xjb" afterPath="" />
+      <change type="DELETED" beforePath="C:\fxaip-egi\auto-pof\target\classes\bindings\base-money-binding.xjb" afterPath="" />
+      <change type="DELETED" beforePath="C:\fxaip-egi\auto-pof\target\classes\bindings\fxaip-base2013-binding.xjb" afterPath="" />
+      <change type="DELETED" beforePath="C:\fxaip-egi\auto-pof\target\classes\bindings\fxaip-trading-common-binding.xjb" afterPath="" />
+      <change type="DELETED" beforePath="C:\fxaip-egi\auto-pof\target\classes\bindings\jodaDate-binding.xjb" afterPath="" />
+      <change type="DELETED" beforePath="C:\fxaip-egi\auto-pof\target\classes\com\wellsfargo\adapters\DateTimeAdapter.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\fxaip-egi\auto-pof\target\classes\com\wellsfargo\adapters\LocalDateAdapter.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\fxaip-egi\auto-pof\target\classes\com\wellsfargo\adapters\LocalTimeAdapter.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\fxaip-egi\auto-pof\target\classes\com\wellsfargo\service\base\_2003\BalanceType.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\fxaip-egi\auto-pof\target\classes\com\wellsfargo\service\base\_2003\BusinessDateCodeEnum.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\fxaip-egi\auto-pof\target\classes\com\wellsfargo\service\base\_2003\BusinessNameType.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\fxaip-egi\auto-pof\target\classes\com\wellsfargo\service\base\_2003\BusinessNameUsageCodeEnum.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\fxaip-egi\auto-pof\target\classes\com\wellsfargo\service\base\_2003\CodeDetailType.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\fxaip-egi\auto-pof\target\classes\com\wellsfargo\service\base\_2003\CountryCodeListType.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\fxaip-egi\auto-pof\target\classes\com\wellsfargo\service\base\_2003\CurrencyAmountRangeType.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\fxaip-egi\auto-pof\target\classes\com\wellsfargo\service\base\_2003\CurrencyAmtType.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\fxaip-egi\auto-pof\target\classes\com\wellsfargo\service\base\_2003\CursorInType.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\fxaip-egi\auto-pof\target\classes\com\wellsfargo\service\base\_2003\CursorKeyType.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\fxaip-egi\auto-pof\target\classes\com\wellsfargo\service\base\_2003\CursorOutType.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\fxaip-egi\auto-pof\target\classes\com\wellsfargo\service\base\_2003\DataActionCodeEnum.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\fxaip-egi\auto-pof\target\classes\com\wellsfargo\service\base\_2003\DateRangeType.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\fxaip-egi\auto-pof\target\classes\com\wellsfargo\service\base\_2003\DateTimeRangeType.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\fxaip-egi\auto-pof\target\classes\com\wellsfargo\service\base\_2003\DayOfTheWeekCodeEnum.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\fxaip-egi\auto-pof\target\classes\com\wellsfargo\service\base\_2003\DayOfTheWeekCodeListType.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\fxaip-egi\auto-pof\target\classes\com\wellsfargo\service\base\_2003\DebitCreditIndicatorEnum.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\fxaip-egi\auto-pof\target\classes\com\wellsfargo\service\base\_2003\DeliveryChannelCodeEnum.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\fxaip-egi\auto-pof\target\classes\com\wellsfargo\service\base\_2003\DistanceType.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\fxaip-egi\auto-pof\target\classes\com\wellsfargo\service\base\_2003\EntityNameType.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\fxaip-egi\auto-pof\target\classes\com\wellsfargo\service\base\_2003\ExtendedCursorInType.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\fxaip-egi\auto-pof\target\classes\com\wellsfargo\service\base\_2003\ExtendedCursorOutType.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\fxaip-egi\auto-pof\target\classes\com\wellsfargo\service\base\_2003\GeographicPointListType.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\fxaip-egi\auto-pof\target\classes\com\wellsfargo\service\base\_2003\GeographicPointType.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\fxaip-egi\auto-pof\target\classes\com\wellsfargo\service\base\_2003\IndividualNameType.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\fxaip-egi\auto-pof\target\classes\com\wellsfargo\service\base\_2003\IndividualNameUsageCodeEnum.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\fxaip-egi\auto-pof\target\classes\com\wellsfargo\service\base\_2003\IntegerRangeType.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\fxaip-egi\auto-pof\target\classes\com\wellsfargo\service\base\_2003\InterestRateRangeType.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\fxaip-egi\auto-pof\target\classes\com\wellsfargo\service\base\_2003\InterestRateType.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\fxaip-egi\auto-pof\target\classes\com\wellsfargo\service\base\_2003\InternationalNameType.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\fxaip-egi\auto-pof\target\classes\com\wellsfargo\service\base\_2003\IntervalCompleteConstraintEnum.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\fxaip-egi\auto-pof\target\classes\com\wellsfargo\service\base\_2003\LanguageCodeListType.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\fxaip-egi\auto-pof\target\classes\com\wellsfargo\service\base\_2003\LengthType.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\fxaip-egi\auto-pof\target\classes\com\wellsfargo\service\base\_2003\LineListType.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\fxaip-egi\auto-pof\target\classes\com\wellsfargo\service\base\_2003\LocalTimeType.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\fxaip-egi\auto-pof\target\classes\com\wellsfargo\service\base\_2003\NameComponentsType.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\fxaip-egi\auto-pof\target\classes\com\wellsfargo\service\base\_2003\NameFormatEnum.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\fxaip-egi\auto-pof\target\classes\com\wellsfargo\service\base\_2003\NameLineListType.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\fxaip-egi\auto-pof\target\classes\com\wellsfargo\service\base\_2003\NextKeyChoice.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\fxaip-egi\auto-pof\target\classes\com\wellsfargo\service\base\_2003\ObjectFactory.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\fxaip-egi\auto-pof\target\classes\com\wellsfargo\service\base\_2003\PeriodicAmtType.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\fxaip-egi\auto-pof\target\classes\com\wellsfargo\service\base\_2003\RatioType.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\fxaip-egi\auto-pof\target\classes\com\wellsfargo\service\base\_2003\RecurrenceEnum.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\fxaip-egi\auto-pof\target\classes\com\wellsfargo\service\base\_2003\RelaxedTaxIdInfoType.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\fxaip-egi\auto-pof\target\classes\com\wellsfargo\service\base\_2003\RelaxedTaxIdType.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\fxaip-egi\auto-pof\target\classes\com\wellsfargo\service\base\_2003\StringRangeType.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\fxaip-egi\auto-pof\target\classes\com\wellsfargo\service\base\_2003\TINStatusCodeEnum.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\fxaip-egi\auto-pof\target\classes\com\wellsfargo\service\base\_2003\TINTypeEnum.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\fxaip-egi\auto-pof\target\classes\com\wellsfargo\service\base\_2003\TaxIdInfoType.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\fxaip-egi\auto-pof\target\classes\com\wellsfargo\service\base\_2003\TaxIdType.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\fxaip-egi\auto-pof\target\classes\com\wellsfargo\service\base\_2003\TimePeriodType.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\fxaip-egi\auto-pof\target\classes\com\wellsfargo\service\base\_2003\TimeRangeType.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\fxaip-egi\auto-pof\target\classes\com\wellsfargo\service\base\_2003\TimeZoneType.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\fxaip-egi\auto-pof\target\classes\com\wellsfargo\service\base\_2003\TriggersType.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\fxaip-egi\auto-pof\target\classes\com\wellsfargo\service\base\_2003\VariableInterestRateTypeEnum.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\fxaip-egi\auto-pof\target\classes\com\wellsfargo\service\base\_2003\WeightType.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\fxaip-egi\auto-pof\target\classes\com\wellsfargo\service\base\_2003\package-info.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\fxaip-egi\auto-pof\target\classes\com\wellsfargo\service\base\base2003-annot.xsd" afterPath="" />
+      <change type="DELETED" beforePath="C:\fxaip-egi\auto-pof\target\classes\com\wellsfargo\service\base\base2003-geometry.xsd" afterPath="" />
+      <change type="DELETED" beforePath="C:\fxaip-egi\auto-pof\target\classes\com\wellsfargo\service\base\base2003-lang.xsd" afterPath="" />
+      <change type="DELETED" beforePath="C:\fxaip-egi\auto-pof\target\classes\com\wellsfargo\service\base\base2003-money.xsd" afterPath="" />
+      <change type="DELETED" beforePath="C:\fxaip-egi\auto-pof\target\classes\com\wellsfargo\service\base\base2003-time.xsd" afterPath="" />
+      <change type="DELETED" beforePath="C:\fxaip-egi\auto-pof\target\classes\com\wellsfargo\service\base\base2003-wftype.xsd" afterPath="" />
+      <change type="DELETED" beforePath="C:\fxaip-egi\auto-pof\target\classes\com\wellsfargo\service\base\base2003.xsd" afterPath="" />
+      <change type="DELETED" beforePath="C:\fxaip-egi\auto-pof\target\classes\com\wellsfargo\service\entity\message\_2007\DataReferenceType.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\fxaip-egi\auto-pof\target\classes\com\wellsfargo\service\entity\message\_2007\FaultSeverityEnum.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\fxaip-egi\auto-pof\target\classes\com\wellsfargo\service\entity\message\_2007\FaultTypeEnum.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\fxaip-egi\auto-pof\target\classes\com\wellsfargo\service\entity\message\_2007\InitiatorType.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\fxaip-egi\auto-pof\target\classes\com\wellsfargo\service\entity\message\_2007\ObjectFactory.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\fxaip-egi\auto-pof\target\classes\com\wellsfargo\service\entity\message\_2007\OriginatorType.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\fxaip-egi\auto-pof\target\classes\com\wellsfargo\service\entity\message\_2007\ProcessingModeEnum.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\fxaip-egi\auto-pof\target\classes\com\wellsfargo\service\entity\message\_2007\SessionType.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\fxaip-egi\auto-pof\target\classes\com\wellsfargo\service\entity\message\_2007\WFContextType.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\fxaip-egi\auto-pof\target\classes\com\wellsfargo\service\entity\message\_2007\WFFaultListType.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\fxaip-egi\auto-pof\target\classes\com\wellsfargo\service\entity\message\_2007\WFFaultType.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\fxaip-egi\auto-pof\target\classes\com\wellsfargo\service\entity\message\_2007\package-info.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\fxaip-egi\auto-pof\target\classes\com\wellsfargo\service\entity\message\message2007.xsd" afterPath="" />
+      <change type="DELETED" beforePath="C:\fxaip-egi\auto-pof\target\classes\com\wellsfargo\service\provider\fxaip\base\_2013\BuySellIndicatorEnum.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\fxaip-egi\auto-pof\target\classes\com\wellsfargo\service\provider\fxaip\base\_2013\CurrencyPairType.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\fxaip-egi\auto-pof\target\classes\com\wellsfargo\service\provider\fxaip\base\_2013\CurrencyTermEnum.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\fxaip-egi\auto-pof\target\classes\com\wellsfargo\service\provider\fxaip\base\_2013\EntityType.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\fxaip-egi\auto-pof\target\classes\com\wellsfargo\service\provider\fxaip\base\_2013\EntityTypeEnum.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\fxaip-egi\auto-pof\target\classes\com\wellsfargo\service\provider\fxaip\base\_2013\ObjectFactory.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\fxaip-egi\auto-pof\target\classes\com\wellsfargo\service\provider\fxaip\base\_2013\PriceDimensionEnum.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\fxaip-egi\auto-pof\target\classes\com\wellsfargo\service\provider\fxaip\base\_2013\PricingTypeEnum.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\fxaip-egi\auto-pof\target\classes\com\wellsfargo\service\provider\fxaip\base\_2013\ProductEnum.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\fxaip-egi\auto-pof\target\classes\com\wellsfargo\service\provider\fxaip\base\_2013\RateTypeEnum.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\fxaip-egi\auto-pof\target\classes\com\wellsfargo\service\provider\fxaip\base\_2013\SourceSystemType.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\fxaip-egi\auto-pof\target\classes\com\wellsfargo\service\provider\fxaip\base\_2013\TenorDateType.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\fxaip-egi\auto-pof\target\classes\com\wellsfargo\service\provider\fxaip\base\_2013\TradeContractIdListType.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\fxaip-egi\auto-pof\target\classes\com\wellsfargo\service\provider\fxaip\base\_2013\TradeContractIdType.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\fxaip-egi\auto-pof\target\classes\com\wellsfargo\service\provider\fxaip\base\_2013\TransactionLimitTypeEnum.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\fxaip-egi\auto-pof\target\classes\com\wellsfargo\service\provider\fxaip\base\_2013\package-info.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\fxaip-egi\auto-pof\target\classes\com\wellsfargo\service\provider\fxaip\base\fxaip-base2013.xsd" afterPath="" />
+      <change type="DELETED" beforePath="C:\fxaip-egi\auto-pof\target\classes\com\wellsfargo\service\provider\fxaip\gfx\event\event2013.xsd" afterPath="" />
+      <change type="DELETED" beforePath="C:\fxaip-egi\auto-pof\target\classes\com\wellsfargo\service\provider\fxaip\gfx\gfx2013.wsdl" afterPath="" />
+      <change type="DELETED" beforePath="C:\fxaip-egi\auto-pof\target\classes\com\wellsfargo\service\provider\fxaip\gfx\gfxService2013.xsd" afterPath="" />
+      <change type="DELETED" beforePath="C:\fxaip-egi\auto-pof\target\classes\com\wellsfargo\service\provider\fxaip\gfx\service\_2013\CoreFX2013.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\fxaip-egi\auto-pof\target\classes\com\wellsfargo\service\provider\fxaip\gfx\service\_2013\CoreFX2013_CoreFX2013Port_Client.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\fxaip-egi\auto-pof\target\classes\com\wellsfargo\service\provider\fxaip\gfx\service\_2013\CoreFX2013_Service.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\fxaip-egi\auto-pof\target\classes\com\wellsfargo\service\provider\fxaip\gfx\service\core\_2013\ObjectFactory.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\fxaip-egi\auto-pof\target\classes\com\wellsfargo\service\provider\fxaip\gfx\service\core\_2013\RequestDealAndSettlementResponseType.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\fxaip-egi\auto-pof\target\classes\com\wellsfargo\service\provider\fxaip\gfx\service\core\_2013\RequestDealAndSettlementType.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\fxaip-egi\auto-pof\target\classes\com\wellsfargo\service\provider\fxaip\gfx\service\core\_2013\package-info.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\fxaip-egi\auto-pof\target\classes\com\wellsfargo\service\provider\fxaip\gfx\service\settlement\_2013\ApproveSettlementResponseType.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\fxaip-egi\auto-pof\target\classes\com\wellsfargo\service\provider\fxaip\gfx\service\settlement\_2013\ApproveSettlementType.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\fxaip-egi\auto-pof\target\classes\com\wellsfargo\service\provider\fxaip\gfx\service\settlement\_2013\CancelSettlementResponseType.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\fxaip-egi\auto-pof\target\classes\com\wellsfargo\service\provider\fxaip\gfx\service\settlement\_2013\CancelSettlementType.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\fxaip-egi\auto-pof\target\classes\com\wellsfargo\service\provider\fxaip\gfx\service\settlement\_2013\GetSettlementResponseType.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\fxaip-egi\auto-pof\target\classes\com\wellsfargo\service\provider\fxaip\gfx\service\settlement\_2013\GetSettlementType.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\fxaip-egi\auto-pof\target\classes\com\wellsfargo\service\provider\fxaip\gfx\service\settlement\_2013\ObjectFactory.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\fxaip-egi\auto-pof\target\classes\com\wellsfargo\service\provider\fxaip\gfx\service\settlement\_2013\RejectSettlementResponseType.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\fxaip-egi\auto-pof\target\classes\com\wellsfargo\service\provider\fxaip\gfx\service\settlement\_2013\RejectSettlementType.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\fxaip-egi\auto-pof\target\classes\com\wellsfargo\service\provider\fxaip\gfx\service\settlement\_2013\RemoveSettlementResponseType.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\fxaip-egi\auto-pof\target\classes\com\wellsfargo\service\provider\fxaip\gfx\service\settlement\_2013\RemoveSettlementType.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\fxaip-egi\auto-pof\target\classes\com\wellsfargo\service\provider\fxaip\gfx\service\settlement\_2013\SaveSettlementResponseType.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\fxaip-egi\auto-pof\target\classes\com\wellsfargo\service\provider\fxaip\gfx\service\settlement\_2013\SaveSettlementType.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\fxaip-egi\auto-pof\target\classes\com\wellsfargo\service\provider\fxaip\gfx\service\settlement\_2013\SubmitSettlementResponseType.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\fxaip-egi\auto-pof\target\classes\com\wellsfargo\service\provider\fxaip\gfx\service\settlement\_2013\SubmitSettlementType.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\fxaip-egi\auto-pof\target\classes\com\wellsfargo\service\provider\fxaip\gfx\service\settlement\_2013\package-info.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\fxaip-egi\auto-pof\target\classes\com\wellsfargo\service\provider\fxaip\gfx\service\trading\_2013\ObjectFactory.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\fxaip-egi\auto-pof\target\classes\com\wellsfargo\service\provider\fxaip\gfx\service\trading\_2013\RequestDealResponseType.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\fxaip-egi\auto-pof\target\classes\com\wellsfargo\service\provider\fxaip\gfx\service\trading\_2013\RequestDealType.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\fxaip-egi\auto-pof\target\classes\com\wellsfargo\service\provider\fxaip\gfx\service\trading\_2013\package-info.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\fxaip-egi\auto-pof\target\classes\com\wellsfargo\service\provider\fxaip\gfx\settlementService2013.xsd" afterPath="" />
+      <change type="DELETED" beforePath="C:\fxaip-egi\auto-pof\target\classes\com\wellsfargo\service\provider\fxaip\gfx\settlement\_2013\BasicSettlementDataType.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\fxaip-egi\auto-pof\target\classes\com\wellsfargo\service\provider\fxaip\gfx\settlement\_2013\DetailOfChargesEnum.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\fxaip-egi\auto-pof\target\classes\com\wellsfargo\service\provider\fxaip\gfx\settlement\_2013\MCAAccountTypeEnum.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\fxaip-egi\auto-pof\target\classes\com\wellsfargo\service\provider\fxaip\gfx\settlement\_2013\ObjectFactory.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\fxaip-egi\auto-pof\target\classes\com\wellsfargo\service\provider\fxaip\gfx\settlement\_2013\SettlementDACHType.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\fxaip-egi\auto-pof\target\classes\com\wellsfargo\service\provider\fxaip\gfx\settlement\_2013\SettlementDDAType.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\fxaip-egi\auto-pof\target\classes\com\wellsfargo\service\provider\fxaip\gfx\settlement\_2013\SettlementDataType.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\fxaip-egi\auto-pof\target\classes\com\wellsfargo\service\provider\fxaip\gfx\settlement\_2013\SettlementDetailsType.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\fxaip-egi\auto-pof\target\classes\com\wellsfargo\service\provider\fxaip\gfx\settlement\_2013\SettlementGLType.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\fxaip-egi\auto-pof\target\classes\com\wellsfargo\service\provider\fxaip\gfx\settlement\_2013\SettlementHeaderType.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\fxaip-egi\auto-pof\target\classes\com\wellsfargo\service\provider\fxaip\gfx\settlement\_2013\SettlementIISType.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\fxaip-egi\auto-pof\target\classes\com\wellsfargo\service\provider\fxaip\gfx\settlement\_2013\SettlementInfoType.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\fxaip-egi\auto-pof\target\classes\com\wellsfargo\service\provider\fxaip\gfx\settlement\_2013\SettlementInstructionDetailType.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\fxaip-egi\auto-pof\target\classes\com\wellsfargo\service\provider\fxaip\gfx\settlement\_2013\SettlementInstructionType.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\fxaip-egi\auto-pof\target\classes\com\wellsfargo\service\provider\fxaip\gfx\settlement\_2013\SettlementMCAType.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\fxaip-egi\auto-pof\target\classes\com\wellsfargo\service\provider\fxaip\gfx\settlement\_2013\SettlementStatusListType.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\fxaip-egi\auto-pof\target\classes\com\wellsfargo\service\provider\fxaip\gfx\settlement\_2013\SettlementWireType.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\fxaip-egi\auto-pof\target\classes\com\wellsfargo\service\provider\fxaip\gfx\settlement\_2013\SingleSettlementDataType.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\fxaip-egi\auto-pof\target\classes\com\wellsfargo\service\provider\fxaip\gfx\settlement\_2013\SwapSettlementDataType.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\fxaip-egi\auto-pof\target\classes\com\wellsfargo\service\provider\fxaip\gfx\settlement\_2013\WireTypeEnum.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\fxaip-egi\auto-pof\target\classes\com\wellsfargo\service\provider\fxaip\gfx\settlement\_2013\package-info.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\fxaip-egi\auto-pof\target\classes\com\wellsfargo\service\provider\fxaip\gfx\settlement\settlement2013.xsd" afterPath="" />
+      <change type="DELETED" beforePath="C:\fxaip-egi\auto-pof\target\classes\com\wellsfargo\service\provider\fxaip\gfx\tradingService2013.xsd" afterPath="" />
+      <change type="DELETED" beforePath="C:\fxaip-egi\auto-pof\target\classes\com\wellsfargo\service\provider\fxaip\gfx\trading\_2013\AdditionalInfoType.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\fxaip-egi\auto-pof\target\classes\com\wellsfargo\service\provider\fxaip\gfx\trading\_2013\ContractType.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\fxaip-egi\auto-pof\target\classes\com\wellsfargo\service\provider\fxaip\gfx\trading\_2013\FXDrawDownTradeRequestType.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\fxaip-egi\auto-pof\target\classes\com\wellsfargo\service\provider\fxaip\gfx\trading\_2013\FXNDFTradeRequestType.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\fxaip-egi\auto-pof\target\classes\com\wellsfargo\service\provider\fxaip\gfx\trading\_2013\FXSpotFwdTradeRequestType.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\fxaip-egi\auto-pof\target\classes\com\wellsfargo\service\provider\fxaip\gfx\trading\_2013\FXSwapTradeRequestType.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\fxaip-egi\auto-pof\target\classes\com\wellsfargo\service\provider\fxaip\gfx\trading\_2013\FXWindowFwdTradeRequestType.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\fxaip-egi\auto-pof\target\classes\com\wellsfargo\service\provider\fxaip\gfx\trading\_2013\MCATradeRequestType.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\fxaip-egi\auto-pof\target\classes\com\wellsfargo\service\provider\fxaip\gfx\trading\_2013\Map.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\fxaip-egi\auto-pof\target\classes\com\wellsfargo\service\provider\fxaip\gfx\trading\_2013\MapEntryType.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\fxaip-egi\auto-pof\target\classes\com\wellsfargo\service\provider\fxaip\gfx\trading\_2013\MapType.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\fxaip-egi\auto-pof\target\classes\com\wellsfargo\service\provider\fxaip\gfx\trading\_2013\McaTypeEnum.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\fxaip-egi\auto-pof\target\classes\com\wellsfargo\service\provider\fxaip\gfx\trading\_2013\ObjectFactory.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\fxaip-egi\auto-pof\target\classes\com\wellsfargo\service\provider\fxaip\gfx\trading\_2013\OffsetDataType.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\fxaip-egi\auto-pof\target\classes\com\wellsfargo\service\provider\fxaip\gfx\trading\_2013\PortfoliosType.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\fxaip-egi\auto-pof\target\classes\com\wellsfargo\service\provider\fxaip\gfx\trading\_2013\RolloverDataType.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\fxaip-egi\auto-pof\target\classes\com\wellsfargo\service\provider\fxaip\gfx\trading\_2013\SpotFwdAllInRateType.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\fxaip-egi\auto-pof\target\classes\com\wellsfargo\service\provider\fxaip\gfx\trading\_2013\SpotFwdContractType.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\fxaip-egi\auto-pof\target\classes\com\wellsfargo\service\provider\fxaip\gfx\trading\_2013\SpotFwdLegType.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\fxaip-egi\auto-pof\target\classes\com\wellsfargo\service\provider\fxaip\gfx\trading\_2013\SpreadDataType.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\fxaip-egi\auto-pof\target\classes\com\wellsfargo\service\provider\fxaip\gfx\trading\_2013\SwapContractType.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\fxaip-egi\auto-pof\target\classes\com\wellsfargo\service\provider\fxaip\gfx\trading\_2013\TradeBackOfficeInterfaceFieldsType.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\fxaip-egi\auto-pof\target\classes\com\wellsfargo\service\provider\fxaip\gfx\trading\_2013\TradeDepositRequestType.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\fxaip-egi\auto-pof\target\classes\com\wellsfargo\service\provider\fxaip\gfx\trading\_2013\TradeDetailListType.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\fxaip-egi\auto-pof\target\classes\com\wellsfargo\service\provider\fxaip\gfx\trading\_2013\TradeDetailType.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\fxaip-egi\auto-pof\target\classes\com\wellsfargo\service\provider\fxaip\gfx\trading\_2013\TradeNotesType.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\fxaip-egi\auto-pof\target\classes\com\wellsfargo\service\provider\fxaip\gfx\trading\_2013\TradeRequestType.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\fxaip-egi\auto-pof\target\classes\com\wellsfargo\service\provider\fxaip\gfx\trading\_2013\TraderBooksAndPortfoliosType.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\fxaip-egi\auto-pof\target\classes\com\wellsfargo\service\provider\fxaip\gfx\trading\_2013\TraderBooksType.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\fxaip-egi\auto-pof\target\classes\com\wellsfargo\service\provider\fxaip\gfx\trading\_2013\WindowFwdContractType.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\fxaip-egi\auto-pof\target\classes\com\wellsfargo\service\provider\fxaip\gfx\trading\_2013\package-info.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\fxaip-egi\auto-pof\target\classes\com\wellsfargo\service\provider\fxaip\gfx\trading\trading2013.xsd" afterPath="" />
+      <change type="DELETED" beforePath="C:\fxaip-egi\auto-pof\target\classes\episodes\com\wellsfargo\service\provider\fxaip\gfx\base\base.episode" afterPath="" />
+      <change type="DELETED" beforePath="C:\fxaip-egi\auto-pof\target\classes\episodes\com\wellsfargo\service\provider\fxaip\gfx\event\event.episode" afterPath="" />
+      <change type="DELETED" beforePath="C:\fxaip-egi\auto-pof\target\classes\episodes\com\wellsfargo\service\provider\fxaip\gfx\settlement\settlement.episode" afterPath="" />
+      <change type="DELETED" beforePath="C:\fxaip-egi\auto-pof\target\classes\episodes\com\wellsfargo\service\provider\fxaip\gfx\trading\trading.episode" afterPath="" />
+      <change type="DELETED" beforePath="C:\fxaip-egi\auto-pof\target\classes\gfx-pof-config.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\fxaip-egi\auto-pof\target\classes\serde-base-pof-config.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\fxaip-egi\auto-pof\target\cxf-codegen-plugin-markers\..._schemas_com_wellsfargo_service_provider_fxaip_gfx_gfx2013.wsdl.java.DONE" afterPath="" />
+      <change type="DELETED" beforePath="C:\fxaip-egi\auto-pof\target\generated-sources\META-INF\sun-jaxb.episode" afterPath="" />
+      <change type="DELETED" beforePath="C:\fxaip-egi\auto-pof\target\generated-sources\com\redsparksystems\service\base\_2003\BalanceType.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\fxaip-egi\auto-pof\target\generated-sources\com\redsparksystems\service\base\_2003\BusinessDateCodeEnum.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\fxaip-egi\auto-pof\target\generated-sources\com\redsparksystems\service\base\_2003\BusinessNameType.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\fxaip-egi\auto-pof\target\generated-sources\com\redsparksystems\service\base\_2003\BusinessNameUsageCodeEnum.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\fxaip-egi\auto-pof\target\generated-sources\com\redsparksystems\service\base\_2003\CodeDetailType.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\fxaip-egi\auto-pof\target\generated-sources\com\redsparksystems\service\base\_2003\CountryCodeListType.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\fxaip-egi\auto-pof\target\generated-sources\com\redsparksystems\service\base\_2003\CurrencyAmountRangeType.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\fxaip-egi\auto-pof\target\generated-sources\com\redsparksystems\service\base\_2003\CurrencyAmtType.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\fxaip-egi\auto-pof\target\generated-sources\com\redsparksystems\service\base\_2003\CursorInType.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\fxaip-egi\auto-pof\target\generated-sources\com\redsparksystems\service\base\_2003\CursorKeyType.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\fxaip-egi\auto-pof\target\generated-sources\com\redsparksystems\service\base\_2003\CursorOutType.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\fxaip-egi\auto-pof\target\generated-sources\com\redsparksystems\service\base\_2003\DataActionCodeEnum.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\fxaip-egi\auto-pof\target\generated-sources\com\redsparksystems\service\base\_2003\DateRangeType.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\fxaip-egi\auto-pof\target\generated-sources\com\redsparksystems\service\base\_2003\DateTimeRangeType.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\fxaip-egi\auto-pof\target\generated-sources\com\redsparksystems\service\base\_2003\DayOfTheWeekCodeEnum.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\fxaip-egi\auto-pof\target\generated-sources\com\redsparksystems\service\base\_2003\DayOfTheWeekCodeListType.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\fxaip-egi\auto-pof\target\generated-sources\com\redsparksystems\service\base\_2003\DebitCreditIndicatorEnum.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\fxaip-egi\auto-pof\target\generated-sources\com\redsparksystems\service\base\_2003\DeliveryChannelCodeEnum.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\fxaip-egi\auto-pof\target\generated-sources\com\redsparksystems\service\base\_2003\DistanceType.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\fxaip-egi\auto-pof\target\generated-sources\com\redsparksystems\service\base\_2003\EntityNameType.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\fxaip-egi\auto-pof\target\generated-sources\com\redsparksystems\service\base\_2003\ExtendedCursorInType.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\fxaip-egi\auto-pof\target\generated-sources\com\redsparksystems\service\base\_2003\ExtendedCursorOutType.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\fxaip-egi\auto-pof\target\generated-sources\com\redsparksystems\service\base\_2003\GeographicPointListType.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\fxaip-egi\auto-pof\target\generated-sources\com\redsparksystems\service\base\_2003\GeographicPointType.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\fxaip-egi\auto-pof\target\generated-sources\com\redsparksystems\service\base\_2003\IndividualNameType.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\fxaip-egi\auto-pof\target\generated-sources\com\redsparksystems\service\base\_2003\IndividualNameUsageCodeEnum.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\fxaip-egi\auto-pof\target\generated-sources\com\redsparksystems\service\base\_2003\IntegerRangeType.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\fxaip-egi\auto-pof\target\generated-sources\com\redsparksystems\service\base\_2003\InterestRateRangeType.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\fxaip-egi\auto-pof\target\generated-sources\com\redsparksystems\service\base\_2003\InterestRateType.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\fxaip-egi\auto-pof\target\generated-sources\com\redsparksystems\service\base\_2003\InternationalNameType.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\fxaip-egi\auto-pof\target\generated-sources\com\redsparksystems\service\base\_2003\IntervalCompleteConstraintEnum.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\fxaip-egi\auto-pof\target\generated-sources\com\redsparksystems\service\base\_2003\LanguageCodeListType.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\fxaip-egi\auto-pof\target\generated-sources\com\redsparksystems\service\base\_2003\LengthType.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\fxaip-egi\auto-pof\target\generated-sources\com\redsparksystems\service\base\_2003\LineListType.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\fxaip-egi\auto-pof\target\generated-sources\com\redsparksystems\service\base\_2003\LocalTimeType.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\fxaip-egi\auto-pof\target\generated-sources\com\redsparksystems\service\base\_2003\NameComponentsType.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\fxaip-egi\auto-pof\target\generated-sources\com\redsparksystems\service\base\_2003\NameFormatEnum.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\fxaip-egi\auto-pof\target\generated-sources\com\redsparksystems\service\base\_2003\NameLineListType.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\fxaip-egi\auto-pof\target\generated-sources\com\redsparksystems\service\base\_2003\NextKeyChoice.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\fxaip-egi\auto-pof\target\generated-sources\com\redsparksystems\service\base\_2003\ObjectFactory.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\fxaip-egi\auto-pof\target\generated-sources\com\redsparksystems\service\base\_2003\PeriodicAmtType.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\fxaip-egi\auto-pof\target\generated-sources\com\redsparksystems\service\base\_2003\RatioType.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\fxaip-egi\auto-pof\target\generated-sources\com\redsparksystems\service\base\_2003\RecurrenceEnum.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\fxaip-egi\auto-pof\target\generated-sources\com\redsparksystems\service\base\_2003\RelaxedTaxIdInfoType.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\fxaip-egi\auto-pof\target\generated-sources\com\redsparksystems\service\base\_2003\RelaxedTaxIdType.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\fxaip-egi\auto-pof\target\generated-sources\com\redsparksystems\service\base\_2003\StringRangeType.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\fxaip-egi\auto-pof\target\generated-sources\com\redsparksystems\service\base\_2003\TINStatusCodeEnum.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\fxaip-egi\auto-pof\target\generated-sources\com\redsparksystems\service\base\_2003\TINTypeEnum.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\fxaip-egi\auto-pof\target\generated-sources\com\redsparksystems\service\base\_2003\TaxIdInfoType.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\fxaip-egi\auto-pof\target\generated-sources\com\redsparksystems\service\base\_2003\TaxIdType.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\fxaip-egi\auto-pof\target\generated-sources\com\redsparksystems\service\base\_2003\TimePeriodType.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\fxaip-egi\auto-pof\target\generated-sources\com\redsparksystems\service\base\_2003\TimeRangeType.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\fxaip-egi\auto-pof\target\generated-sources\com\redsparksystems\service\base\_2003\TimeZoneType.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\fxaip-egi\auto-pof\target\generated-sources\com\redsparksystems\service\base\_2003\TriggersType.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\fxaip-egi\auto-pof\target\generated-sources\com\redsparksystems\service\base\_2003\VariableInterestRateTypeEnum.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\fxaip-egi\auto-pof\target\generated-sources\com\redsparksystems\service\base\_2003\WeightType.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\fxaip-egi\auto-pof\target\generated-sources\com\redsparksystems\service\entity\message\_2007\DataReferenceType.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\fxaip-egi\auto-pof\target\generated-sources\com\redsparksystems\service\entity\message\_2007\FaultSeverityEnum.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\fxaip-egi\auto-pof\target\generated-sources\com\redsparksystems\service\entity\message\_2007\FaultTypeEnum.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\fxaip-egi\auto-pof\target\generated-sources\com\redsparksystems\service\entity\message\_2007\InitiatorType.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\fxaip-egi\auto-pof\target\generated-sources\com\redsparksystems\service\entity\message\_2007\ObjectFactory.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\fxaip-egi\auto-pof\target\generated-sources\com\redsparksystems\service\entity\message\_2007\OriginatorType.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\fxaip-egi\auto-pof\target\generated-sources\com\redsparksystems\service\entity\message\_2007\ProcessingModeEnum.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\fxaip-egi\auto-pof\target\generated-sources\com\redsparksystems\service\entity\message\_2007\SessionType.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\fxaip-egi\auto-pof\target\generated-sources\com\redsparksystems\service\entity\message\_2007\WFContext.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\fxaip-egi\auto-pof\target\generated-sources\com\redsparksystems\service\entity\message\_2007\WFFault.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\fxaip-egi\auto-pof\target\generated-sources\com\redsparksystems\service\entity\message\_2007\WFFaultList.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\fxaip-egi\auto-pof\target\generated-sources\com\redsparksystems\service\provider\fxaip\base\_2013\BuySellIndicatorEnum.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\fxaip-egi\auto-pof\target\generated-sources\com\redsparksystems\service\provider\fxaip\base\_2013\CurrencyPairType.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\fxaip-egi\auto-pof\target\generated-sources\com\redsparksystems\service\provider\fxaip\base\_2013\CurrencyTermEnum.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\fxaip-egi\auto-pof\target\generated-sources\com\redsparksystems\service\provider\fxaip\base\_2013\EntityType.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\fxaip-egi\auto-pof\target\generated-sources\com\redsparksystems\service\provider\fxaip\base\_2013\EntityTypeEnum.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\fxaip-egi\auto-pof\target\generated-sources\com\redsparksystems\service\provider\fxaip\base\_2013\ObjectFactory.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\fxaip-egi\auto-pof\target\generated-sources\com\redsparksystems\service\provider\fxaip\base\_2013\PriceDimensionEnum.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\fxaip-egi\auto-pof\target\generated-sources\com\redsparksystems\service\provider\fxaip\base\_2013\PricingTypeEnum.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\fxaip-egi\auto-pof\target\generated-sources\com\redsparksystems\service\provider\fxaip\base\_2013\ProductEnum.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\fxaip-egi\auto-pof\target\generated-sources\com\redsparksystems\service\provider\fxaip\base\_2013\RateTypeEnum.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\fxaip-egi\auto-pof\target\generated-sources\com\redsparksystems\service\provider\fxaip\base\_2013\SourceSystemType.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\fxaip-egi\auto-pof\target\generated-sources\com\redsparksystems\service\provider\fxaip\base\_2013\TenorDateType.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\fxaip-egi\auto-pof\target\generated-sources\com\redsparksystems\service\provider\fxaip\base\_2013\TradeContractIdListType.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\fxaip-egi\auto-pof\target\generated-sources\com\redsparksystems\service\provider\fxaip\base\_2013\TradeIdentifier.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\fxaip-egi\auto-pof\target\generated-sources\com\redsparksystems\service\provider\fxaip\base\_2013\TransactionLimitTypeEnum.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\fxaip-egi\auto-pof\target\generated-sources\com\redsparksystems\service\provider\fxaip\gfx\service\core\_2013\ObjectFactory.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\fxaip-egi\auto-pof\target\generated-sources\com\redsparksystems\service\provider\fxaip\gfx\service\core\_2013\RequestDealAndSettlement.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\fxaip-egi\auto-pof\target\generated-sources\com\redsparksystems\service\provider\fxaip\gfx\service\core\_2013\RequestDealAndSettlementResponse.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\fxaip-egi\auto-pof\target\generated-sources\com\redsparksystems\service\provider\fxaip\gfx\service\settlement\_2013\ApproveSettlementResponseType.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\fxaip-egi\auto-pof\target\generated-sources\com\redsparksystems\service\provider\fxaip\gfx\service\settlement\_2013\ApproveSettlementType.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\fxaip-egi\auto-pof\target\generated-sources\com\redsparksystems\service\provider\fxaip\gfx\service\settlement\_2013\CancelSettlementResponseType.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\fxaip-egi\auto-pof\target\generated-sources\com\redsparksystems\service\provider\fxaip\gfx\service\settlement\_2013\CancelSettlementType.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\fxaip-egi\auto-pof\target\generated-sources\com\redsparksystems\service\provider\fxaip\gfx\service\settlement\_2013\GetSettlementResponseType.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\fxaip-egi\auto-pof\target\generated-sources\com\redsparksystems\service\provider\fxaip\gfx\service\settlement\_2013\GetSettlementType.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\fxaip-egi\auto-pof\target\generated-sources\com\redsparksystems\service\provider\fxaip\gfx\service\settlement\_2013\ObjectFactory.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\fxaip-egi\auto-pof\target\generated-sources\com\redsparksystems\service\provider\fxaip\gfx\service\settlement\_2013\RejectSettlementResponseType.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\fxaip-egi\auto-pof\target\generated-sources\com\redsparksystems\service\provider\fxaip\gfx\service\settlement\_2013\RejectSettlementType.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\fxaip-egi\auto-pof\target\generated-sources\com\redsparksystems\service\provider\fxaip\gfx\service\settlement\_2013\RemoveSettlementResponseType.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\fxaip-egi\auto-pof\target\generated-sources\com\redsparksystems\service\provider\fxaip\gfx\service\settlement\_2013\RemoveSettlementType.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\fxaip-egi\auto-pof\target\generated-sources\com\redsparksystems\service\provider\fxaip\gfx\service\settlement\_2013\SaveSettlementResponseType.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\fxaip-egi\auto-pof\target\generated-sources\com\redsparksystems\service\provider\fxaip\gfx\service\settlement\_2013\SaveSettlementType.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\fxaip-egi\auto-pof\target\generated-sources\com\redsparksystems\service\provider\fxaip\gfx\service\settlement\_2013\SubmitSettlement.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\fxaip-egi\auto-pof\target\generated-sources\com\redsparksystems\service\provider\fxaip\gfx\service\settlement\_2013\SubmitSettlementResponse.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\fxaip-egi\auto-pof\target\generated-sources\com\redsparksystems\service\provider\fxaip\gfx\service\trading\_2013\ObjectFactory.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\fxaip-egi\auto-pof\target\generated-sources\com\redsparksystems\service\provider\fxaip\gfx\service\trading\_2013\RequestDeal.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\fxaip-egi\auto-pof\target\generated-sources\com\redsparksystems\service\provider\fxaip\gfx\service\trading\_2013\RequestDealResponse.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\fxaip-egi\auto-pof\target\generated-sources\com\redsparksystems\service\provider\fxaip\gfx\settlement\_2013\BasicSettlementDataType.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\fxaip-egi\auto-pof\target\generated-sources\com\redsparksystems\service\provider\fxaip\gfx\settlement\_2013\DetailOfChargesEnum.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\fxaip-egi\auto-pof\target\generated-sources\com\redsparksystems\service\provider\fxaip\gfx\settlement\_2013\MCAAccountTypeEnum.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\fxaip-egi\auto-pof\target\generated-sources\com\redsparksystems\service\provider\fxaip\gfx\settlement\_2013\ObjectFactory.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\fxaip-egi\auto-pof\target\generated-sources\com\redsparksystems\service\provider\fxaip\gfx\settlement\_2013\SettlementDACHType.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\fxaip-egi\auto-pof\target\generated-sources\com\redsparksystems\service\provider\fxaip\gfx\settlement\_2013\SettlementDDAType.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\fxaip-egi\auto-pof\target\generated-sources\com\redsparksystems\service\provider\fxaip\gfx\settlement\_2013\SettlementDataType.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\fxaip-egi\auto-pof\target\generated-sources\com\redsparksystems\service\provider\fxaip\gfx\settlement\_2013\SettlementDetailsType.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\fxaip-egi\auto-pof\target\generated-sources\com\redsparksystems\service\provider\fxaip\gfx\settlement\_2013\SettlementGLType.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\fxaip-egi\auto-pof\target\generated-sources\com\redsparksystems\service\provider\fxaip\gfx\settlement\_2013\SettlementHeaderType.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\fxaip-egi\auto-pof\target\generated-sources\com\redsparksystems\service\provider\fxaip\gfx\settlement\_2013\SettlementIISType.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\fxaip-egi\auto-pof\target\generated-sources\com\redsparksystems\service\provider\fxaip\gfx\settlement\_2013\SettlementInfoType.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\fxaip-egi\auto-pof\target\generated-sources\com\redsparksystems\service\provider\fxaip\gfx\settlement\_2013\SettlementInstructionDetailType.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\fxaip-egi\auto-pof\target\generated-sources\com\redsparksystems\service\provider\fxaip\gfx\settlement\_2013\SettlementInstructionType.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\fxaip-egi\auto-pof\target\generated-sources\com\redsparksystems\service\provider\fxaip\gfx\settlement\_2013\SettlementMCAType.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\fxaip-egi\auto-pof\target\generated-sources\com\redsparksystems\service\provider\fxaip\gfx\settlement\_2013\SettlementStatusListType.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\fxaip-egi\auto-pof\target\generated-sources\com\redsparksystems\service\provider\fxaip\gfx\settlement\_2013\SettlementWireType.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\fxaip-egi\auto-pof\target\generated-sources\com\redsparksystems\service\provider\fxaip\gfx\settlement\_2013\SingleSettlementDataType.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\fxaip-egi\auto-pof\target\generated-sources\com\redsparksystems\service\provider\fxaip\gfx\settlement\_2013\SwapSettlementDataType.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\fxaip-egi\auto-pof\target\generated-sources\com\redsparksystems\service\provider\fxaip\gfx\settlement\_2013\WireTypeEnum.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\fxaip-egi\auto-pof\target\generated-sources\com\redsparksystems\service\provider\fxaip\gfx\trading\_2013\AdditionalInfoType.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\fxaip-egi\auto-pof\target\generated-sources\com\redsparksystems\service\provider\fxaip\gfx\trading\_2013\ContractType.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\fxaip-egi\auto-pof\target\generated-sources\com\redsparksystems\service\provider\fxaip\gfx\trading\_2013\FXDrawDownTradeRequestType.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\fxaip-egi\auto-pof\target\generated-sources\com\redsparksystems\service\provider\fxaip\gfx\trading\_2013\FXNDFTradeRequestType.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\fxaip-egi\auto-pof\target\generated-sources\com\redsparksystems\service\provider\fxaip\gfx\trading\_2013\FXSpotFwdTradeRequestType.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\fxaip-egi\auto-pof\target\generated-sources\com\redsparksystems\service\provider\fxaip\gfx\trading\_2013\FXSwapTradeRequestType.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\fxaip-egi\auto-pof\target\generated-sources\com\redsparksystems\service\provider\fxaip\gfx\trading\_2013\FXWindowFwdTradeRequestType.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\fxaip-egi\auto-pof\target\generated-sources\com\redsparksystems\service\provider\fxaip\gfx\trading\_2013\MCATradeRequestType.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\fxaip-egi\auto-pof\target\generated-sources\com\redsparksystems\service\provider\fxaip\gfx\trading\_2013\Map.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\fxaip-egi\auto-pof\target\generated-sources\com\redsparksystems\service\provider\fxaip\gfx\trading\_2013\MapEntryType.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\fxaip-egi\auto-pof\target\generated-sources\com\redsparksystems\service\provider\fxaip\gfx\trading\_2013\MapType.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\fxaip-egi\auto-pof\target\generated-sources\com\redsparksystems\service\provider\fxaip\gfx\trading\_2013\McaTypeEnum.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\fxaip-egi\auto-pof\target\generated-sources\com\redsparksystems\service\provider\fxaip\gfx\trading\_2013\ObjectFactory.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\fxaip-egi\auto-pof\target\generated-sources\com\redsparksystems\service\provider\fxaip\gfx\trading\_2013\OffsetDataType.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\fxaip-egi\auto-pof\target\generated-sources\com\redsparksystems\service\provider\fxaip\gfx\trading\_2013\PortfoliosType.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\fxaip-egi\auto-pof\target\generated-sources\com\redsparksystems\service\provider\fxaip\gfx\trading\_2013\RolloverDataType.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\fxaip-egi\auto-pof\target\generated-sources\com\redsparksystems\service\provider\fxaip\gfx\trading\_2013\SpotFwdAllInRateType.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\fxaip-egi\auto-pof\target\generated-sources\com\redsparksystems\service\provider\fxaip\gfx\trading\_2013\SpotFwdContractType.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\fxaip-egi\auto-pof\target\generated-sources\com\redsparksystems\service\provider\fxaip\gfx\trading\_2013\SpotFwdLegType.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\fxaip-egi\auto-pof\target\generated-sources\com\redsparksystems\service\provider\fxaip\gfx\trading\_2013\SpreadDataType.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\fxaip-egi\auto-pof\target\generated-sources\com\redsparksystems\service\provider\fxaip\gfx\trading\_2013\SwapContractType.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\fxaip-egi\auto-pof\target\generated-sources\com\redsparksystems\service\provider\fxaip\gfx\trading\_2013\TradeBackOfficeInterfaceFieldsType.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\fxaip-egi\auto-pof\target\generated-sources\com\redsparksystems\service\provider\fxaip\gfx\trading\_2013\TradeDepositRequestType.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\fxaip-egi\auto-pof\target\generated-sources\com\redsparksystems\service\provider\fxaip\gfx\trading\_2013\TradeDetail.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\fxaip-egi\auto-pof\target\generated-sources\com\redsparksystems\service\provider\fxaip\gfx\trading\_2013\TradeDetailList.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\fxaip-egi\auto-pof\target\generated-sources\com\redsparksystems\service\provider\fxaip\gfx\trading\_2013\TradeNotesType.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\fxaip-egi\auto-pof\target\generated-sources\com\redsparksystems\service\provider\fxaip\gfx\trading\_2013\TradeRequestType.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\fxaip-egi\auto-pof\target\generated-sources\com\redsparksystems\service\provider\fxaip\gfx\trading\_2013\TraderBooksAndPortfoliosType.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\fxaip-egi\auto-pof\target\generated-sources\com\redsparksystems\service\provider\fxaip\gfx\trading\_2013\TraderBooksType.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\fxaip-egi\auto-pof\target\generated-sources\com\redsparksystems\service\provider\fxaip\gfx\trading\_2013\WindowFwdContractType.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\fxaip-egi\auto-pof\target\test-classes\com\wellsfargo\aspects\CoherencePortableObjectAspect.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\fxaip-egi\auto-pof\target\test-classes\com\wellsfargo\aspects\SerializationAspect.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\fxaip-egi\auto-pof\target\test-classes\com\wellsfargo\aspects\XmlRootElementAspect.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\fxaip-egi\auto-pof\target\test-classes\com\wellsfargo\domain\BogusMCATradeRequestType.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\fxaip-egi\auto-pof\target\test-classes\com\wellsfargo\domain\Person.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\fxaip-egi\auto-pof\target\test-classes\com\wellsfargo\domain\PersonNoAnnotations.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\fxaip-egi\auto-pof\target\test-classes\com\wellsfargo\marshalling\MarshallTest-context.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\fxaip-egi\auto-pof\target\test-classes\com\wellsfargo\marshalling\MarshallTest.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\fxaip-egi\auto-pof\target\test-classes\com\wellsfargo\pof\POFReader.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\fxaip-egi\auto-pof\target\test-classes\com\wellsfargo\pof\POFTest.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\fxaip-egi\auto-pof\target\test-classes\com\wellsfargo\pof\POFWriter.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\fxaip-egi\auto-pof\target\test-classes\com\wellsfargo\pof\pof-config.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\fxaip-egi\auto-pof\target\test-classes\com\wellsfargo\pof\serializer\AutomaticPofAnnotationSerializer.class" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="gfx-egi-pof.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -500,8 +449,12 @@
       <file leaf-file-name="workspace.xml" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="36" column="112" selection-start="1684" selection-end="1684" vertical-scroll-proportion="0.0">
-              <folding />
+            <state line="413" column="112" selection-start="65571" selection-end="65571" vertical-scroll-proportion="0.0">
+              <folding>
+                <marker date="1367592554614" expanded="true" signature="96882:96928" placeholder="..." />
+                <marker date="1367592554614" expanded="true" signature="96882:96913" placeholder="..." />
+                <marker date="1367592554614" expanded="true" signature="96882:96900" placeholder="..." />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -677,20 +630,6 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="gfx-egi-pof" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="auto-pof" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="target" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
         </subPane>
       </pane>
     </panes>
@@ -698,10 +637,14 @@
   <component name="PropertiesComponent">
     <property name="GoToFile.includeJavaFiles" value="false" />
     <property name="GoToClass.toSaveIncludeLibraries" value="false" />
+    <property name="options.splitter.main.proportions" value="0.3" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="options.lastSelected" value="project.propVCSSupport.Mappings" />
     <property name="MemberChooser.sorted" value="false" />
     <property name="MemberChooser.showClasses" value="true" />
     <property name="GoToClass.includeLibraries" value="false" />
+    <property name="options.searchVisible" value="true" />
+    <property name="options.splitter.details.proportions" value="0.2" />
     <property name="MemberChooser.copyJavadoc" value="false" />
   </component>
   <component name="RunManager">
@@ -847,6 +790,11 @@
       <created>1367590407868</created>
       <updated>1367590407868</updated>
     </task>
+    <task id="LOCAL-00001" summary="Initial check-in">
+      <created>1367592520835</created>
+      <updated>1367592520835</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -861,6 +809,7 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -908,10 +857,10 @@
     <option name="INCLUDE_TEXT_INTO_SHELF" value="false" />
     <option name="CREATE_PATCH_EXPAND_DETAILS_DEFAULT" value="true" />
     <option name="SHOW_FILE_HISTORY_DETAILS" value="true" />
-    <option name="SHOW_VCS_ERROR_NOTIFICATIONS" value="true" />
+    <option name="SHOW_VCS_ERROR_NOTIFICATIONS" value="false" />
     <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="false" />
-    <option name="LAST_COMMIT_MESSAGE" />
+    <option name="LAST_COMMIT_MESSAGE" value="Initial check-in" />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="false" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_FILES_UP_TO_DATE_BEFORE_COMMIT" value="false" />
@@ -924,6 +873,7 @@
     <option name="UPDATE_GROUP_BY_CHANGELIST" value="false" />
     <option name="SHOW_FILE_HISTORY_AS_TREE" value="false" />
     <option name="FILE_HISTORY_SPLITTER_PROPORTION" value="0.6" />
+    <MESSAGE value="Initial check-in" />
   </component>
   <component name="VssConfiguration">
     <option name="CLIENT_PATH" value="" />
@@ -1022,8 +972,12 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="36" column="112" selection-start="1684" selection-end="1684" vertical-scroll-proportion="0.0">
-          <folding />
+        <state line="413" column="112" selection-start="65571" selection-end="65571" vertical-scroll-proportion="0.0">
+          <folding>
+            <marker date="1367592554614" expanded="true" signature="96882:96928" placeholder="..." />
+            <marker date="1367592554614" expanded="true" signature="96882:96913" placeholder="..." />
+            <marker date="1367592554614" expanded="true" signature="96882:96900" placeholder="..." />
+          </folding>
         </state>
       </provider>
     </entry>
