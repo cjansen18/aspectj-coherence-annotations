@@ -1,0 +1,99 @@
+<wsdl:definitions xmlns="http://service.wellsfargo.com/provider/fxaip/gfx/service/2013/" 
+					xmlns:soapbind="http://schemas.xmlsoap.org/wsdl/soap/" 
+					xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/" 
+					xmlns:xs="http://www.w3.org/2001/XMLSchema" 
+					xmlns:msg2007="http://service.wellsfargo.com/entity/message/2007/" 
+					xmlns:gfx2013="http://service.wellsfargo.com/provider/fxaip/gfx/service/2013/" 
+					xmlns:gfxcore2013="http://service.wellsfargo.com/provider/fxaip/gfx/service/core/2013/" 
+					name="CoreFX2013" 
+					targetNamespace="http://service.wellsfargo.com/provider/fxaip/gfx/service/2013/">
+	<wsdl:documentation>CoreFX Web Services</wsdl:documentation>
+	<wsdl:types>
+		<xs:schema targetNamespace="http://service.wellsfargo.com/entity/message/2007/" 
+						xmlns="http://service.wellsfargo.com/entity/message/2007/" 
+						xmlns:xs="http://www.w3.org/2001/XMLSchema">
+			<xs:include schemaLocation="./../../../../service/entity/message/message2007.xsd"/>
+		</xs:schema>
+		<xs:schema targetNamespace="http://service.wellsfargo.com/provider/fxaip/gfx/service/core/2013/" 
+						xmlns="http://service.wellsfargo.com/provider/fxaip/gfx/service/gfx/2013/" 
+						xmlns:xs="http://www.w3.org/2001/XMLSchema">
+			<xs:include schemaLocation="gfxService2013.xsd"/>
+		</xs:schema>
+	</wsdl:types>
+	<wsdl:message name="MessageHeader2007">
+		<wsdl:part name="WFContext" element="msg2007:WFContext"/>        
+    </wsdl:message>
+	<wsdl:message name="requestDealRequestMessage">		
+        <wsdl:part name="requestDeal" element="gfxcore2013:requestDeal"/>
+    </wsdl:message>
+    <wsdl:message name="requestDealResponseMessage">		
+        <wsdl:part name="requestDealResponse" element="gfxcore2013:requestDealResponse"/>
+    </wsdl:message>
+	<wsdl:message name="submitSettlementRequestMessage">		
+		<wsdl:part name="submitSettlement" element="gfxcore2013:submitSettlement"/>
+	</wsdl:message>
+	<wsdl:message name="submitSettlementResponseMessage">		
+		<wsdl:part name="submitSettlementResponse" element="gfxcore2013:submitSettlementResponse"/>
+	</wsdl:message>
+	<wsdl:message name="requestDealAndSettlementRequestMessage">		
+        <wsdl:part name="requestDealAndSettlement" element="gfxcore2013:requestDealAndSettlement"/>
+    </wsdl:message>
+    <wsdl:message name="requestDealAndSettlementResponseMessage">		
+        <wsdl:part name="requestDealAndSettlementResponse" element="gfxcore2013:requestDealAndSettlementResponse"/>
+    </wsdl:message>
+	<wsdl:portType name="CoreFX2013">
+		<wsdl:operation name="requestDeal">
+            <wsdl:input message="gfx2013:requestDealRequestMessage"/>
+            <wsdl:output message="gfx2013:requestDealResponseMessage"/>
+        </wsdl:operation>
+         <wsdl:operation name="submitSettlement">
+            <wsdl:input message="gfx2013:submitSettlementRequestMessage"/>
+            <wsdl:output message="gfx2013:submitSettlementResponseMessage"/>
+        </wsdl:operation>
+         <wsdl:operation name="requestDealAndSettlement">
+            <wsdl:input message="gfx2013:requestDealAndSettlementRequestMessage"/>
+            <wsdl:output message="gfx2013:requestDealAndSettlementResponseMessage"/>
+        </wsdl:operation>
+	</wsdl:portType>
+	<wsdl:binding name="gfxSOAPBinding" type="gfx2013:CoreFX2013">
+		<soapbind:binding style="document" transport="http://schemas.xmlsoap.org/soap/http"/>
+		<wsdl:operation name="requestDeal">
+           <soapbind:operation soapAction="http://service.wellsfargo.com/provider/fxaip/gfx/service/2013/" style="document"/>
+            <wsdl:input>
+                <soapbind:header message="MessageHeader2007" part="WFContext" use="literal"/>
+                <soapbind:body parts="requestDeal" use="literal"/>
+            </wsdl:input>
+            <wsdl:output>
+                <soapbind:header message="MessageHeader2007" part="WFContext" use="literal"/>
+                <soapbind:body parts="requestDealResponse" use="literal"/>
+            </wsdl:output>
+        </wsdl:operation>
+		<wsdl:operation name="submitSettlement">
+			<soapbind:operation soapAction="http://service.wellsfargo.com/provider/fxaip/gfx/service/2013/" style="document"/>
+			<wsdl:input>
+				<soapbind:header message="MessageHeader2007" part="WFContext" use="literal"/>
+				<soapbind:body parts="submitSettlement" use="literal"/>
+			</wsdl:input>
+			<wsdl:output>
+				<soapbind:header message="MessageHeader2007" part="WFContext" use="literal"/>
+				<soapbind:body parts="submitSettlementResponse" use="literal"/>
+			</wsdl:output>
+		</wsdl:operation>
+		<wsdl:operation name="requestDealAndSettlement">
+            <soapbind:operation soapAction="http://service.wellsfargo.com/provider/fxaip/gfx/service/2013/" style="document"/>
+            <wsdl:input>
+                <soapbind:header message="MessageHeader2007" part="WFContext" use="literal"/>
+                <soapbind:body parts="requestDealAndSettlement" use="literal"/>
+            </wsdl:input>
+            <wsdl:output>
+                <soapbind:header message="MessageHeader2007" part="WFContext" use="literal"/>
+                <soapbind:body parts="requestDealAndSettlementResponse" use="literal"/>
+            </wsdl:output>
+        </wsdl:operation>
+	</wsdl:binding>
+	<wsdl:service name="CoreFX2013">
+		<wsdl:port name="CoreFX2013Port" binding="gfx2013:gfxSOAPBinding">
+			<soapbind:address location="http://localhost:9080/fxaip/gfx/service/2013"/>
+		</wsdl:port>
+	</wsdl:service>
+</wsdl:definitions>

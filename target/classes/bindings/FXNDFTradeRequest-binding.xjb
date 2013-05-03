@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<jaxb:bindings xmlns:jaxb="http://java.sun.com/xml/ns/jaxb"
+	xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xjc="http://java.sun.com/xml/ns/jaxb/xjc"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:annox="http://annox.dev.java.net"
+	xsi:schemaLocation="http://java.sun.com/xml/ns/jaxb http://java.sun.com/xml/ns/jaxb/bindingschema_2_0.xsd
+                    http://annox.dev.java.net"
+	jaxb:extensionBindingPrefixes="annox" version="2.1">
+
+	<jaxb:bindings
+		schemaLocation="../../../../../schemas/com/wellsfargo/service/provider/fxaip/gfx/trading/trading2013.xsd"
+		node="/xs:schema">
+
+		<jaxb:bindings node="//xs:complexType[@name='FXNDFTradeRequest_Type']">
+			<annox:annotateClass>
+				<annox:annotate annox:class="com.tangosol.io.pof.annotation.Portable">
+				</annox:annotate>
+			</annox:annotateClass>
+		</jaxb:bindings>
+
+		<!-- <xs:element name="fixingDate" type="xs:date" minOccurs="0"/> -->
+		<jaxb:bindings
+			node="//xs:complexType[@name='FXNDFTradeRequest_Type']//xs:element[@name='fixingDate']">
+			<annox:annotate target="field">
+				<annox:annotate annox:class="com.tangosol.io.pof.annotation.PortableProperty"
+					name="entityId" value="0">
+				</annox:annotate>
+			</annox:annotate>
+		</jaxb:bindings>
+		
+		<!-- <xs:element name="fixedNDF" type="xs:boolean" minOccurs="0"/> -->
+		<jaxb:bindings
+			node="//xs:complexType[@name='FXNDFTradeRequest_Type']//xs:element[@name='fixedNDF']">
+			<annox:annotate target="field">
+				<annox:annotate annox:class="com.tangosol.io.pof.annotation.PortableProperty"
+					name="entityId" value="1">
+				</annox:annotate>
+			</annox:annotate>
+		</jaxb:bindings>
+		
+		<!-- <xs:element name="averageNDF" type="xs:boolean" minOccurs="0"/> -->
+		<jaxb:bindings
+			node="//xs:complexType[@name='FXNDFTradeRequest_Type']//xs:element[@name='averageNDF']">
+			<annox:annotate target="field">
+				<annox:annotate annox:class="com.tangosol.io.pof.annotation.PortableProperty"
+					name="entityId" value="2">
+				</annox:annotate>
+			</annox:annotate>
+		</jaxb:bindings>
+		
+		<!-- <xs:element name="settlementCurrency" type="wfbase:CurrencyCode_Type" minOccurs="0"/> -->
+		<jaxb:bindings
+			node="//xs:complexType[@name='FXNDFTradeRequest_Type']//xs:element[@name='settlementCurrency']">
+			<annox:annotate target="field">
+				<annox:annotate annox:class="com.tangosol.io.pof.annotation.PortableProperty"
+					name="entityId" value="3">
+				</annox:annotate>
+			</annox:annotate>
+		</jaxb:bindings>
+		
+		<!-- <xs:element name="fixingTradeId" type="xs:integer" minOccurs="0"/> -->
+		<jaxb:bindings
+			node="//xs:complexType[@name='FXNDFTradeRequest_Type']//xs:element[@name='fixingTradeId']">
+			<annox:annotate target="field">
+				<annox:annotate annox:class="com.tangosol.io.pof.annotation.PortableProperty"
+					name="entityId" value="4">
+				</annox:annotate>
+			</annox:annotate>
+		</jaxb:bindings>
+		
+		<!-- <xs:element name="fixingDefinition" type="xs:string" minOccurs="0"/> -->
+		<jaxb:bindings
+			node="//xs:complexType[@name='FXNDFTradeRequest_Type']//xs:element[@name='fixingDefinition']">
+			<annox:annotate target="field">
+				<annox:annotate annox:class="com.tangosol.io.pof.annotation.PortableProperty"
+					name="entityId" value="5">
+				</annox:annotate>
+			</annox:annotate>
+		</jaxb:bindings>
+		
+		<!-- <xs:element name="fixingStatus" type="xs:string" minOccurs="0"/> -->
+		<jaxb:bindings
+			node="//xs:complexType[@name='FXNDFTradeRequest_Type']//xs:element[@name='fixingStatus']">
+			<annox:annotate target="field">
+				<annox:annotate annox:class="com.tangosol.io.pof.annotation.PortableProperty"
+					name="entityId" value="6">
+				</annox:annotate>
+			</annox:annotate>
+		</jaxb:bindings>
+		
+		<!-- <xs:element name="settlementAccount" type="xs:string" minOccurs="0"/> -->
+		<jaxb:bindings
+			node="//xs:complexType[@name='FXNDFTradeRequest_Type']//xs:element[@name='settlementAccount']">
+			<annox:annotate target="field">
+				<annox:annotate annox:class="com.tangosol.io.pof.annotation.PortableProperty"
+					name="entityId" value="7">
+				</annox:annotate>
+			</annox:annotate>
+		</jaxb:bindings>
+		
+		<!-- <xs:element name="accountType" type="xs:string" minOccurs="0"/> -->
+		<jaxb:bindings
+			node="//xs:complexType[@name='FXNDFTradeRequest_Type']//xs:element[@name='accountType']">
+			<annox:annotate target="field">
+				<annox:annotate annox:class="com.tangosol.io.pof.annotation.PortableProperty"
+					name="entityId" value="8">
+				</annox:annotate>
+			</annox:annotate>
+		</jaxb:bindings>
+
+	</jaxb:bindings>
+</jaxb:bindings>

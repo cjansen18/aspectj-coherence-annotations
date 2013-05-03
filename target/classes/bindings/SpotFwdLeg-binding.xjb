@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<jaxb:bindings xmlns:jaxb="http://java.sun.com/xml/ns/jaxb"
+	xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xjc="http://java.sun.com/xml/ns/jaxb/xjc"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:annox="http://annox.dev.java.net"
+	xsi:schemaLocation="http://java.sun.com/xml/ns/jaxb http://java.sun.com/xml/ns/jaxb/bindingschema_2_0.xsd
+                    http://annox.dev.java.net"
+	jaxb:extensionBindingPrefixes="annox" version="2.1">
+
+	<jaxb:bindings
+		schemaLocation="../../../../../schemas/com/wellsfargo/service/provider/fxaip/gfx/trading/trading2013.xsd"
+		node="/xs:schema">
+
+
+		
+		<jaxb:bindings node="//xs:complexType[@name='SpotFwdLeg_Type']">
+			<annox:annotateClass>
+				<annox:annotate annox:class="com.tangosol.io.pof.annotation.Portable">
+				</annox:annotate>
+			</annox:annotateClass>
+		</jaxb:bindings>
+		
+		<jaxb:bindings
+			node="//xs:complexType[@name='SpotFwdLeg_Type']//xs:element[@name='valueDate']">
+			<annox:annotate target="field">
+				<annox:annotate annox:class="com.tangosol.io.pof.annotation.PortableProperty"
+					name="entityId" value="0">
+				</annox:annotate>
+			</annox:annotate>
+		</jaxb:bindings>
+		
+		<jaxb:bindings
+			node="//xs:complexType[@name='SpotFwdLeg_Type']//xs:element[@name='wfBuySellIndicator']">
+			<annox:annotate target="field">
+				<annox:annotate annox:class="com.tangosol.io.pof.annotation.PortableProperty"
+					name="entityId" value="1">
+				</annox:annotate>
+			</annox:annotate>
+		</jaxb:bindings>
+		
+		<jaxb:bindings
+			node="//xs:complexType[@name='SpotFwdLeg_Type']//xs:element[@name='currencyAmount']">
+			<annox:annotate target="field">
+				<annox:annotate annox:class="com.tangosol.io.pof.annotation.PortableProperty"
+					name="entityId" value="2">
+				</annox:annotate>
+			</annox:annotate>
+		</jaxb:bindings>
+		
+		<jaxb:bindings
+			node="//xs:complexType[@name='SpotFwdLeg_Type']//xs:element[@name='ctrCurrencyAmount']">
+			<annox:annotate target="field">
+				<annox:annotate annox:class="com.tangosol.io.pof.annotation.PortableProperty"
+					name="entityId" value="3">
+				</annox:annotate>
+			</annox:annotate>
+		</jaxb:bindings>
+
+		<jaxb:bindings
+			node="//xs:complexType[@name='SpotFwdLeg_Type']//xs:element[@name='customerRate']">
+			<annox:annotate target="field">
+				<annox:annotate annox:class="com.tangosol.io.pof.annotation.PortableProperty"
+					name="entityId" value="4">
+				</annox:annotate>
+			</annox:annotate>
+		</jaxb:bindings>
+		
+		<jaxb:bindings
+			node="//xs:complexType[@name='SpotFwdLeg_Type']//xs:element[@name='marketRate']">
+			<annox:annotate target="field">
+				<annox:annotate annox:class="com.tangosol.io.pof.annotation.PortableProperty"
+					name="entityId" value="5">
+				</annox:annotate>
+			</annox:annotate>
+		</jaxb:bindings>
+
+		<jaxb:bindings
+			node="//xs:complexType[@name='SpotFwdLeg_Type']//xs:element[@name='baseRate']">
+			<annox:annotate target="field">
+				<annox:annotate annox:class="com.tangosol.io.pof.annotation.PortableProperty"
+					name="entityId" value="6">
+				</annox:annotate>
+			</annox:annotate>
+		</jaxb:bindings>
+
+		<jaxb:bindings
+			node="//xs:complexType[@name='SpotFwdLeg_Type']//xs:element[@name='spreadAmount']">
+			<annox:annotate target="field">
+				<annox:annotate annox:class="com.tangosol.io.pof.annotation.PortableProperty"
+					name="entityId" value="7">
+				</annox:annotate>
+			</annox:annotate>
+		</jaxb:bindings>
+
+		<jaxb:bindings
+			node="//xs:complexType[@name='SpotFwdLeg_Type']//xs:element[@name='spreadRate']">
+			<annox:annotate target="field">
+				<annox:annotate annox:class="com.tangosol.io.pof.annotation.PortableProperty"
+					name="entityId" value="8">
+				</annox:annotate>
+			</annox:annotate>
+		</jaxb:bindings>
+		
+		<jaxb:bindings
+			node="//xs:complexType[@name='SpotFwdLeg_Type']//xs:element[@name='baseCurrencyAmount']">
+			<annox:annotate target="field">
+				<annox:annotate annox:class="com.tangosol.io.pof.annotation.PortableProperty"
+					name="entityId" value="9">
+				</annox:annotate>
+			</annox:annotate>
+		</jaxb:bindings>
+		
+		<jaxb:bindings
+			node="//xs:complexType[@name='SpotFwdLeg_Type']//xs:element[@name='currencyTerm']">
+			<annox:annotate target="field">
+				<annox:annotate annox:class="com.tangosol.io.pof.annotation.PortableProperty"
+					name="entityId" value="10">
+				</annox:annotate>
+			</annox:annotate>
+		</jaxb:bindings>
+		
+		<jaxb:bindings
+			node="//xs:complexType[@name='SpotFwdLeg_Type']//xs:element[@name='rateMarketConvention']">
+			<annox:annotate target="field">
+				<annox:annotate annox:class="com.tangosol.io.pof.annotation.PortableProperty"
+					name="entityId" value="11">
+				</annox:annotate>
+			</annox:annotate>
+		</jaxb:bindings>
+		
+	</jaxb:bindings>
+</jaxb:bindings>

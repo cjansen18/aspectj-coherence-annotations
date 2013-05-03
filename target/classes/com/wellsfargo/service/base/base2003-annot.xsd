@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns="http://service.wellsfargo.com/base/2003/" xmlns:xs="http://www.w3.org/2001/XMLSchema" targetNamespace="http://service.wellsfargo.com/base/2003/" elementFormDefault="unqualified" attributeFormDefault="unqualified" version="1.2">
+	<!-- -->
+	<!-- Copyright 2002, 2003 Wells Fargo Bank. All rights reserved.-->
+	<!-- -->
+	<!-- BEGIN CHANGE HISTORY: -->
+	<!--9/30/2008~R. Damlo~Removed exceptionList-->
+	<!--3/31/2008~M. Dayton~Add exception-->
+	<!--12/13/2007~M. Dayton~Add myNSPrefix-->
+	<!--06/06/2003~M. Dayton~Copied from eai-schemas.-->
+	<!-- FILE: annot.xsd@@/main/sfo_schemas_int/1 -->
+	<!--01/06/03  A. Filby           Initial version-->
+	<!-- END CHANGE HISTORY: -->
+	<xs:annotation>
+		<xs:documentation>Defines annotative elements to be used as hints to Schema Processers.   Typically, these are found in an xs:appInfo element</xs:documentation>
+		<xs:appinfo>
+			<myNSPrefix>base</myNSPrefix>
+		</xs:appinfo>
+	</xs:annotation>
+	<xs:element name="isMasterSchemaFile" type="xs:boolean" nillable="true">
+		<xs:annotation>
+			<xs:documentation>Schema appinfo. Set to true if this file contains the complete schema definition for this namespace e.g. by including the other files in this namespace</xs:documentation>
+			<xs:appinfo>
+				<exception>WF2605</exception>
+			</xs:appinfo>
+		</xs:annotation>
+	</xs:element>
+	<xs:element name="exception" type="xs:string">
+		<xs:annotation>
+			<xs:documentation>Schema defintions that have been granted an excepton to a WFXML assertion should indicate this by listing the assertion Id a value of an base:exception in the defintions <xs:appinfo/>.</xs:documentation>
+			<xs:appinfo>
+				<exception>WF2605</exception>
+			</xs:appinfo>
+		</xs:annotation>
+	</xs:element>
+		<xs:element name="myNSPrefix" type="xs:Name">
+		<xs:annotation>
+			<xs:documentation>WF3163: SCHEMAs SHOULD  use the namespace abbreviation specified by base:myNSPrefix in the global <xs:appinfo/>  of the  imported schema to refer to components of an xs:imported schema.</xs:documentation>
+			<xs:appinfo>
+				<exception>WF2605</exception>
+			</xs:appinfo>
+		</xs:annotation>
+	</xs:element>
+</xs:schema>

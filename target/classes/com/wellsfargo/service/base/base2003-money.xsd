@@ -1,0 +1,286 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns="http://service.wellsfargo.com/base/2003/" xmlns:xs="http://www.w3.org/2001/XMLSchema" targetNamespace="http://service.wellsfargo.com/base/2003/" elementFormDefault="unqualified" attributeFormDefault="unqualified" version="1.91">
+	<xs:include schemaLocation="./base2003-time.xsd"/>
+	<!-- BASE - MONEY-->
+	<!---->
+	<!-- Copyright 2002, 2003 Wells Fargo Bank. All rights reserved.-->
+	<!-- -->
+	<!-- BEGIN CHANGE HISTORY: -->
+	<!--10-01-2008~R. Damlo~Added appinfo myNSPrefix and exception appinfo WF2605-->
+	<!--04-23-2008~M. Dayton~Deprecated components causing WFMXL compliance issues-->
+	<!--09-06-2007~M. Bue~Added annotations to fix systinet errors.-->
+	<!--04-05-2006~M. Haehn~Added currencyCode as a new element-->
+	<!--08-18-2005~M. Dayton~Removed include of base-wftype.xsd-->
+	<!--11-04-2004~R.Chattanathan~Added InterestRateRange_Type-->
+	<!--08-13-2003~M.Dayton~Added PeriodicAmt_Type-->
+	<!--07-14-2003~M.Dayton~Added InterestRate types-->
+	<!--07-08-2003~M.Dayton~Added DebitCreditIndicator_Enum-->
+	<!--06-10-2003~M.Dayton~Initial Revision.  Copied from currancy.xsd-->
+	<!-- END CHANGE HISTORY: -->
+	<!-- -->
+	<xs:annotation>
+		<xs:documentation>Base defintions of currency and money releated types.</xs:documentation>
+		<xs:appinfo>
+			<myNSPrefix>base</myNSPrefix>
+		</xs:appinfo>
+	</xs:annotation>
+	<!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
+	<!-- Currency -->
+	<!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
+	<xs:simpleType name="CurrencyCode_Type">
+		<xs:annotation>
+			<xs:documentation>A Code allocated to a currency, by a maintenance agency, under an international identification scheme as described in the latest edition of the international standard ISO 4217 "Codes for the representation of currencies and funds". Valid currency codes are registered with the ISO 4217 Maintenance Agency, and consist of three contiguous letters.   In most cases, the currency code is composed of the country's two-character internet country code plus an extra character to denote the currency unit.  The standard also defines a 3 digit numeric equivelent.</xs:documentation>
+		</xs:annotation>
+		<xs:restriction base="xs:string">
+			<xs:length value="3"/>
+		</xs:restriction>
+	</xs:simpleType>
+	<xs:complexType name="CurrencyAmt_Type">
+		<xs:annotation>
+			<xs:documentation>Money</xs:documentation>
+		</xs:annotation>
+		<xs:sequence>
+			<xs:element name="amt" type="xs:decimal">
+				<xs:annotation>
+					<xs:documentation>An amount in US dollars or other specifed currency.</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="currencyCode" type="CurrencyCode_Type" minOccurs="0">
+				<xs:annotation>
+					<xs:documentation>If omitted assume "USD".</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+		</xs:sequence>
+	</xs:complexType>
+	<xs:complexType name="CurrencyAmountRange_Type">
+		<xs:annotation>
+			<xs:documentation>An open-ended range of amounts.</xs:documentation>
+		</xs:annotation>
+		<xs:sequence>
+			<xs:element name="min" type="CurrencyAmt_Type" minOccurs="0">
+				<xs:annotation>
+					<xs:documentation>The minimum amount.</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="max" type="CurrencyAmt_Type" minOccurs="0">
+				<xs:annotation>
+					<xs:documentation>The maximum amount</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+		</xs:sequence>
+	</xs:complexType>
+	<xs:element name="currencyCode" type="CurrencyCode_Type">
+		<xs:annotation>
+			<xs:documentation>ISO 4217 3 character Currency Code.</xs:documentation>
+			<xs:appinfo>
+				<exception>WF2605</exception>
+			</xs:appinfo>
+		</xs:annotation>
+	</xs:element>
+	<!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
+	<!-- Funds -->
+	<!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
+	<xs:complexType name="Balance_Type">
+		<xs:annotation>
+			<xs:documentation>A  balance of funds.</xs:documentation>
+		</xs:annotation>
+		<xs:sequence>
+			<xs:element name="amount" type="CurrencyAmt_Type">
+				<xs:annotation>
+					<xs:documentation>Balance dollar amount.</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="asOfDate" type="xs:date" minOccurs="0">
+				<xs:annotation>
+					<xs:documentation>Date on which the balance was calculated</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="source" type="xs:string" minOccurs="0">
+				<xs:annotation>
+					<xs:documentation>System source for the balance calculation. Used to determine what information was available at the time the balance was calculated.</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+		</xs:sequence>
+	</xs:complexType>
+	<xs:complexType name="Ratio_Type">
+		<xs:sequence>
+			<xs:element name="leftSideAmount" type="CurrencyAmt_Type">
+				<xs:annotation>
+					<xs:documentation>Ratio left side amount</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="rightSideAmount" type="CurrencyAmt_Type">
+				<xs:annotation>
+					<xs:documentation>Ratio right side amount</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+		</xs:sequence>
+	</xs:complexType>
+	<xs:simpleType name="DebitCreditIndicator_Enum">
+		<xs:annotation>
+			<xs:documentation>Indicates Debit or Credit</xs:documentation>
+		</xs:annotation>
+		<xs:restriction base="xs:string">
+			<xs:enumeration value="DEBIT">
+				<xs:annotation>
+					<xs:documentation>Debit</xs:documentation>
+				</xs:annotation>
+			</xs:enumeration>
+			<xs:enumeration value="CREDIT">
+				<xs:annotation>
+					<xs:documentation>Credit</xs:documentation>
+				</xs:annotation>
+			</xs:enumeration>
+		</xs:restriction>
+	</xs:simpleType>
+	<!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
+	<!-- Interest -->
+	<!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
+	<xs:simpleType name="VariableInterestRateType_Enum">
+		<xs:annotation>
+			<xs:documentation>DEPRECATED: Enumeration values exceed 30 characters</xs:documentation>
+		</xs:annotation>
+		<xs:restriction base="xs:string">
+			<xs:enumeration value="ONE_MONTH_JUMBO_CD">
+				<xs:annotation>
+					<xs:documentation>One month jumbo CD</xs:documentation>
+				</xs:annotation>
+			</xs:enumeration>
+			<xs:enumeration value="WEEKLY_3_MONTH_CD_RATE">
+				<xs:annotation>
+					<xs:documentation>Weekly 3 month CD rate</xs:documentation>
+				</xs:annotation>
+			</xs:enumeration>
+			<xs:enumeration value="DAILY_3_MONTH_CR_RATE_QUARTERLY">
+				<xs:annotation>
+					<xs:documentation>Daily 3 month CR rate quarterly</xs:documentation>
+				</xs:annotation>
+			</xs:enumeration>
+			<xs:enumeration value="DAILY_3_MONTH_TBILL_RATE_QUARTERLY">
+				<xs:annotation>
+					<xs:documentation>Daily 3 month Tbill rate quarterly</xs:documentation>
+				</xs:annotation>
+			</xs:enumeration>
+			<xs:enumeration value="FIXED_RATE">
+				<xs:annotation>
+					<xs:documentation>Fixed rate</xs:documentation>
+				</xs:annotation>
+			</xs:enumeration>
+			<xs:enumeration value="DAILY_1_MONTH_CD_SPOTRATE_WEEKLY">
+				<xs:annotation>
+					<xs:documentation>Daily 1 month CD spot rate weekly</xs:documentation>
+				</xs:annotation>
+			</xs:enumeration>
+			<xs:enumeration value="AVG_90_DAY_TBILL">
+				<xs:annotation>
+					<xs:documentation>Average 90 day Tbill</xs:documentation>
+				</xs:annotation>
+			</xs:enumeration>
+			<xs:enumeration value="SIX_MONTH_TBILL_CHNG_LAST_DAY">
+				<xs:annotation>
+					<xs:documentation>6 month Tbill change last day</xs:documentation>
+				</xs:annotation>
+			</xs:enumeration>
+			<xs:enumeration value="WSJ_PRIME_CYCLE">
+				<xs:annotation>
+					<xs:documentation>WSJ prime cycle</xs:documentation>
+				</xs:annotation>
+			</xs:enumeration>
+			<xs:enumeration value="WSJ_PRIME_CHNG_MONTHLY">
+				<xs:annotation>
+					<xs:documentation>WSJ prime change monthly</xs:documentation>
+				</xs:annotation>
+			</xs:enumeration>
+			<xs:enumeration value="WALL_STREET_JOURNAL">
+				<xs:annotation>
+					<xs:documentation>Wall Street journal</xs:documentation>
+				</xs:annotation>
+			</xs:enumeration>
+			<xs:enumeration value="WFB_PRIME_RATE_CYCLE">
+				<xs:annotation>
+					<xs:documentation>WFB prime rate cycle</xs:documentation>
+				</xs:annotation>
+			</xs:enumeration>
+			<xs:enumeration value="NW_PRIME_RANCH">
+				<xs:annotation>
+					<xs:documentation>NW prime ranch</xs:documentation>
+				</xs:annotation>
+			</xs:enumeration>
+		</xs:restriction>
+	</xs:simpleType>
+	<xs:complexType name="InterestRate_Type">
+		<xs:annotation>
+			<xs:documentation>The price paid for borrowing money. It is expressed as a percentage rate.   Usually, the interest is paid periodically over the life of the loan, deposit, or security. However, some interest-bearing instruments, such as savings accounts, do not have defined maturities. Under the terms of some instruments, interest is not paid periodically over the life of the instrument but instead is paid solely at the end of the loan/ deposit/ security term.</xs:documentation>
+		</xs:annotation>
+		<xs:sequence>
+			<xs:element name="currentRate" type="xs:decimal">
+				<xs:annotation>
+					<xs:documentation>The current rate of interest</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="variableRateIndicator" type="xs:boolean" minOccurs="0">
+				<xs:annotation>
+					<xs:documentation>DEPRECATED: WF3023: elements of type xs:boolean must be nillable.
+					Identifies if the Interest rate is variable (or fixed).</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="variableRateType" type="VariableInterestRateType_Enum" minOccurs="0">
+				<xs:annotation>
+					<xs:documentation>The type of variablility associated with the interest rate.</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="lastChangeDate" type="xs:date" minOccurs="0">
+				<xs:annotation>
+					<xs:documentation>The most recent date on which the interest rate changed.</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="APR" type="xs:decimal" minOccurs="0">
+				<xs:annotation>
+					<xs:documentation>The annualized percentage rate of interest.</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+		</xs:sequence>
+	</xs:complexType>
+	<xs:complexType name="InterestRateRange_Type">
+		<xs:annotation>
+			<xs:documentation>The minumum and maximum percentage rate of interest.</xs:documentation>
+		</xs:annotation>
+		<xs:sequence>
+			<xs:element name="minRatePercentage" type="xs:decimal" minOccurs="0">
+				<xs:annotation>
+					<xs:documentation>The minimum rate of interest</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="maxRatePercentage" type="xs:decimal" minOccurs="0">
+				<xs:annotation>
+					<xs:documentation>The maximum rate of interest</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+		</xs:sequence>
+	</xs:complexType>
+	<!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
+	<!--Charges and Fees-->
+	<!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
+	<xs:complexType name="PeriodicAmt_Type">
+		<xs:annotation>
+			<xs:documentation>An amount that recurs perodically.</xs:documentation>
+		</xs:annotation>
+		<xs:sequence>
+			<xs:element name="frequency" type="Recurrence_Enum">
+				<xs:annotation>
+					<xs:documentation>The amount recurs at this frequency.</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="amt" type="xs:decimal">
+				<xs:annotation>
+					<xs:documentation>An amount in US dollars or other specifed currency.</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="currencyCode" type="CurrencyCode_Type" minOccurs="0">
+				<xs:annotation>
+					<xs:documentation>If omitted assume "USD".</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+		</xs:sequence>
+	</xs:complexType>
+</xs:schema>
