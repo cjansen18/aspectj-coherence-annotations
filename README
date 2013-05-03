@@ -1,1 +1,12 @@
-This file was created by IntelliJ IDEA 11.1.4 for binding GitHub repository
+How to apply Coherence Annotations using Aspectj
+================================================
+
+cjansen18 [at] gmail.com
+
+Here is a simple project that shows how to apply Coherence Portable Object Format (POF) annotations
+using Aspectj aspects.  The approach may be used to apply Coherence POF annotations to an existing project containing a
+large amount of existing classes.
+
+The annotations are applied via the Maven build process using compile time weaving.
+
+The aspects may be altered as needed to target specific packages/classes of interest.
