@@ -10,3 +10,5 @@ large amount of existing classes.
 The annotations are applied via the Maven build process using compile time weaving.
 
 The aspects may be altered as needed to target specific packages/classes of interest.
+
+See com.redsparksystems.pof.POFTest.testSerializationUsingAspects()

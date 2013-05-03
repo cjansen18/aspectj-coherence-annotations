@@ -41,7 +41,7 @@ public class POFTest {
 
 		person.setFirstName("Chris");
 		person.setLastName("Jansen");
-		person.setMiddleName("Michael");
+		person.setMiddleName("MyMiddleName");
 
 		Binary binary = ExternalizableHelper.toBinary(person, serializer);
 
@@ -62,7 +62,7 @@ public class POFTest {
 		PersonNoAnnotations personNoAnnotations = new PersonNoAnnotations();
 
 		personNoAnnotations.setFirstName("Jim");
-		personNoAnnotations.setLastName("Celauro");
+		personNoAnnotations.setLastName("Julio");
 		personNoAnnotations.setMiddleName("Theodore");
 
 		Binary binary = ExternalizableHelper.toBinary(personNoAnnotations,
