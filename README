@@ -11,4 +11,6 @@ The annotations are applied via the Maven build process using compile time weavi
 
 The aspects may be altered as needed to target specific packages/classes of interest.
 
-See com.redsparksystems.pof.POFTest.testSerializationUsingAspects()
+See com.redsparksystems.pof.POFTest.testSerializationUsingAspects() for an example on how this is done.
+
+-Chris
