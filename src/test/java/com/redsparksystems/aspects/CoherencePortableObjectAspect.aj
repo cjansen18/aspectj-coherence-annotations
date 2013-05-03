@@ -5,11 +5,12 @@ import com.tangosol.io.pof.annotation.PortableProperty;
 
 /**
  * User: Christopher M. Jansen
- * Date: 4/19/13
+ * Date: 5/1/13
  * Time: 10:56 AM
  * Red Spark Systems
  */
-public aspect CoherencePortableObjectAspect { 
+public aspect CoherencePortableObjectAspect {
+
 
 	/**
 	 * Class level annotations. 
